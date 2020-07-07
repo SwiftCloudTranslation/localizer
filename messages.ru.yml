@@ -1,0 +1,213 @@
+## YAML Template.
+code: 'bfh-flag-RU'
+name: 'Россия'
+login:
+    modal-body-text: 1-щелчок авторизоваться с ...
+    or: или
+    remember: Запомни меня
+    donot_account: У вас нет учетной записи?
+    form:
+        email_placeholder: Эл. адрес
+        password_placeholder: пароль
+    error:
+        reset_password_link: Вы можете сбросить свой пароль здесь?
+        invalid_credentials: Недопустимые учетные данные
+        authentication_problem: Запрос подлинности не может быть обработан из-за системной проблемы
+    login_trouble: Войти Проблемы?
+    login_btn: Авторизоваться
+    signup_btn: Зарегистрироваться
+    terms_of_use: Условия эксплуатации
+    privacy_policy: политика конфиденциальности
+    press: Нажмите
+    careers: Карьера
+    login_msg: Зарегистрировавшись или войдя в систему, вы соглашаетесь с нашими увлекательными
+    tool_tip: Это приложение не публикуется публично, если вы специально не используете этот инструмент для этого в разделе маркетинга.
+signup:
+    modal-body-text: 1-щелчок Зарегистрироваться c ...
+    or: или
+    form:
+        name_placeholder: имя
+        confirm_password_placeholder: Подтвердите Пароль
+        email_placeholder: Эл. адрес
+        password_placeholder: пароль
+        your_name: Ваше имя
+        work_email: Работа электронной почты
+    create_account_btn: Регистрация
+    hooked_up: Уже зацепился?
+    tool_tip: Это приложение не публикуется публично, если вы специально не используете этот инструмент для этого в разделе маркетинга.
+footer:
+    powered-by: Питаться от
+    terms-of-use: Условия эксплуатации
+    privacy: Конфиденциальность
+    press: Нажмите
+    carrers: Карьера
+    accessibility: доступность
+signableDoc:
+    validations:
+      fieldRequired: Это поле обязательно к заполнению
+      invalidEmail: Неверный адрес электронной почты
+      invalidUrl: Неверная ссылка
+      invalidPhone: Неправильный номер телефона
+      selectFile: Выберите файл
+      signBelow: Пожалуйста, подпишите ниже
+date-time-system:
+    select-day: день
+    select-month: месяц
+    select-year: год
+    select-hours: часы
+    select-minutes: минуты
+    select-ampm: ДО ПОЛУДНЯ
+    days-of-week:
+      monday: понедельник
+      tuesday: вторник
+      wednesday: среда
+      thursday: Четверг
+      friday: пятница
+      saturday: суббота
+      sunday: Воскресенье
+    months-of-year:
+      january: январь
+      february: февраль
+      march: марш
+      april: апрель
+      may: май
+      june: июнь
+      july: июль
+      august: августейший
+      september: сентябрь
+      october: октября
+      november: ноябрь
+      december: Декабрь    
+envelope:
+    preview:
+      question:
+        ask: Задайте вопрос 
+        send: Отправить вопрос
+      decline:
+          decline-sign: Отклонить, чтобы подписать
+          decline-sign-header: Хотите разработать? Мы передадим записку владельцу документа.
+      
+invoice:
+    terms: Все неоплаченные счета, не оплаченные в течение %days% дни подлежат %percent%% в месяц плата за просрочку согласно нашим условиям выставления счетов.
+    invoice: Счет-фактура
+    sent-from: Отправлено из
+    sent-to: Отправлено
+    estimate: Оценить
+    quote: котировка
+    purchase-order: Заказ на покупку
+    credit-memo: Кредитовое авизо
+    receipt: Чек   
+    date: %type%%article% Свидание
+    total: %type% Общее количество
+    status:
+        due: Должное
+        partial: Частично оплачено
+        paid: ПЛАТНЫЕ
+        canceled: отменен
+        refunded: Возвращено
+        unpaid: неоплаченный
+        unpaid-overdue: Неоплаченная просроченная
+        not-yet-committed: Еще не совершено
+        committed: Совершенные
+    header:         
+        item: Предмет
+        memo: напоминание    
+        sub-total: Промежуточный итог
+        description: Описание
+        discount: скидка        
+        previous-pay: Предыдущий платеж %plural%
+        ship-hand: Доставка и обработка
+        installation: Монтаж
+        account-credit: Кредит счета
+        due: Должное
+        mail-check: Отправить чек
+        mail-check-title: Обновляет статус на Check In Mail, чтобы получатель мог следить за ним.
+        pay-with: Оплатить с %method%
+        
+shop:
+    shop: Магазин
+    cart: телега
+    add-to: Добавить к
+    sales-quest: SАлесь Вопросы
+    cust-support: Служба поддержки
+    not-required: Не требуется
+    required: необходимые
+    bill-address: Платежный адрес
+    ship-address: Адрес доставки
+    free: Свободно    
+    trial: пробный
+    free-trial: Бесплатная пробная версия Besplatnaya pro
+    start-in: начиная с
+    store-owner: Из %owner%'s хранить
+    delete-item: Удалить из корзины
+    billing-date: Выставлен день %day% каждого %time%
+    billing-date-2: Объявленный %day%
+    complete-pay: ' полный %freq% Payment '
+    total-pay: Общее количество
+    free-prod: Бесплатные продукты
+    one-time: Единовременные покупки
+    recurring: Периодические услуги / подписка
+    add-account: Добавить в мой аккаунт
+    complete-one-time:  Выполните одноразовые платежи
+    total-one-time: "Всего раз "
+    empty: Ваша корзина пуста
+        
+chat:
+    new-conv: Новый разговор
+    send-message: Отправить сообщение
+    typing: %username% пишет
+    just-now: прямо сейчас      
+
+swift:
+    swift_name_both: имя
+    swift_name: имя
+    swift_name_first: Первый имя
+    swift_name_last: Прошлой имя
+    swift_name_title: имя заглавие
+    swift_name_suffix: имя Суффикс
+    swift_additional_contact_name: 'Name из '
+    swift_email: Электронное письмо
+    swift_email_tooltip: 
+    swift_email_tooltip_business: Пожалуйста, используйте ваш основной рабочий адрес электронной почты, если вы подписываете от имени компании. Мы отправим подписанное вами соглашение на этот адрес.
+    swift_email_tooltip: Основной личный адрес электронной почты. Мы отправим подписанное вами соглашение на этот адрес и сохраним его в Интернете в бесплатной учетной записи SwiftCloud для вас, привязанной к этому письму.
+    swift_additional_contact_email: 'Электронная почта ' 
+    swift_phone: Телефон
+    swift_phone_tooltip_format: 'Формат '
+    swift_street_1: улица
+    swift_street_2: улица
+    swift_city: город
+    swift_state: государственный
+    swift_postalcode: Почтовый индекс
+    swift_additional_contact_phone: 'Телефон '
+    swift_address: Введите свой адрес
+    swift_date: Выберите дату
+    swift_datepicker: Выберите дату
+    swift_dateuserlocal: Выберите дату
+    swift_dateuserlocal_long: Выберите дату
+    swift_datetime_long: Выберите дату
+    swift_timepicker: Выберите время
+    swift_timeuserlocal: Выберите время
+    swift_time_long: Выберите время
+    swift_timegmt: Выберите время
+    swift_date_dropdown_day: Выберите день
+    swift_date_dropdown_month: Выберите месяц
+    swift_date_dropdown_year: Выберите год
+    swift_button: представить
+    swift_form_content_button: представить
+    swift_form_content_send: Отправить форму Содержание
+    swift_form_content_button_alert: JavaScript должен быть включен для подписи этого документа. Пожалуйста, проверьте настройки вашего браузера и перезагрузите эту страницу, чтобы продолжить.
+    swift_print_button: Распечатать
+    swift_print_button_alert: JavaScript должен быть включен для подписи этого документа. Пожалуйста, проверьте настройки вашего браузера и перезагрузите эту страницу, чтобы продолжить.
+    swiftsignature_clear: чистый
+    swiftsignature_type: Тип
+    swift_my_signature: Моя подпись
+    move: Переехать
+    swift_uploader: Отменить все
+    swift_webcam: Сфотографируйте с помощью веб-камеры
+    swift_file_upload: Загрузить фото
+    remove: Удалить
+    swift_image_upload: Загрузить фото
+    swift_credit_card: Номер карты
+    swift_credit_card_name: Полное имя
+    swift_birthdate_picker: Выберите дату
+    swift_datetime: Выберите дату и время

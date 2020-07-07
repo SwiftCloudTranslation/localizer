@@ -1,0 +1,217 @@
+## YAML Template.
+code: 'bfh-flag-DE'
+name: 'Deutsche'
+login:
+    modal-body-text: 1-Klick Login mit ...
+    or: oder
+    remember: An mich erinnern
+    donot_account: Haben Sie kein Konto?
+    form:
+        email_placeholder: Email
+        password_placeholder: Passwort
+    error:
+        reset_password_link: Sorge, dein Passwort hier zurückzusetzen?
+        invalid_credentials: Ungültige Anmeldeinformationen
+        authentication_problem: Authentifizierungsanforderung konnte aufgrund eines Systemproblems nicht verarbeitet werden
+    login_trouble: Login Probleme?
+    login_btn: Anmeldung
+    signup_btn: Anmelden
+    terms_of_use: Nutzungsbedingungen
+    privacy_policy: Datenschutz-Bestimmungen
+    press: Drücken Sie
+    careers: Karriere
+    login_msg: Mit der Anmeldung oder dem Einloggen, stimmen Sie unserem faszinierenden zu
+    tool_tip: Diese App wird nicht öffentlich veröffentlicht, es sei denn, Sie verwenden das Tool speziell dazu im Marketingbereich.
+signup:
+    modal-body-text: 1-Klick Anmeldung mit ...
+    or: oder
+    form:
+        name_placeholder: Name
+        confirm_password_placeholder: Bestätige das Passwort
+        email_placeholder: Email
+        password_placeholder: Passwort
+        your_name: Dein Name
+        work_email: Arbeits Email
+    create_account_btn: Benutzerkonto anlegen
+    hooked_up: Schon aufgehängt?
+    tool_tip: Diese App wird nicht öffentlich veröffentlicht, es sei denn, Sie verwenden das Tool speziell dazu im Marketingbereich.
+footer:
+    powered-by: Unterstützt von
+    terms-of-use: Nutzungsbedingungen
+    privacy: Privatsphäre
+    press: Drücken Sie
+    carrers: Karriere
+    accessibility: Barrierefreiheit
+signableDoc:
+    validations:
+      fieldRequired: Dieses Feld wird benötigt
+      invalidEmail: Ungültige E-Mail-Adresse
+      invalidUrl: ungültige URL
+      invalidPhone: ungültige Telefonnummer
+      selectFile: Bitte Datei auswählen
+      signBelow: Bitte unterschreiben   
+      
+date-time-system:
+    select-day: Tag
+    select-month: Monat
+    select-year: Jahr
+    select-hours: Std
+    select-minutes: Protokoll
+    select-ampm: AM / PM
+    days-of-week:
+      monday: Montag
+      tuesday: Dienstag
+      wednesday: Mittwoch
+      thursday: Donnerstag
+      friday: Freitag
+      saturday: Samstag
+      sunday: Sonntag
+    months-of-year:
+      january: Januar
+      february: Februar
+      march: März
+      april: April
+      may: Kann
+      june: Juni
+      july: Juli
+      august: August
+      september: September
+      october: Oktober
+      november: November
+      december: Dezember    
+envelope:
+    preview:
+      question:
+        ask: Stelle eine Frage    
+        send: Frage senden
+      decline:
+          decline-sign: Ablehnen, um zu unterzeichnen
+          decline-sign-header: Möchten Sie näher darauf eingehen? Wir werden eine Notiz an den Besitzer des Dokuments weiterleiten.
+      
+invoice:
+    terms: Für alle nicht bezahlten Rechnungen, die nicht innerhalb von %days% days bezahlt wurden, wird gemäß unseren Rechnungsbedingungen eine Gebühr in Höhe von %percent%% pro Monat berechnet.
+    invoice: Rechnung
+    sent-from: Gesendet von
+    sent-to: Gesendet an
+    estimate: Schätzen
+    quote: Zitat
+    purchase-order: Bestellung
+    credit-memo: Gutschrift
+    receipt: Quittung   
+    date: %type%%article% Datum
+    total: %type% Gesamt
+    status:
+        due: Fällig
+        partial: Teilweise bezahlt
+        paid: BEZAHLT
+        canceled: Abgesagt
+        refunded: Erstattet
+        unpaid: Unbezahlt
+        unpaid-overdue: Unbezahlte überfällig
+        not-yet-committed: Noch nicht festgelegt
+        committed: Engagiert sein
+    header:         
+        item: Artikel
+        memo: Memo    
+        sub-total: Zwischensumme
+        description: Beschreibung
+        discount: Rabatt        
+        previous-pay: Vorherige Zahlung%plural%
+        ship-hand: Versand und Handhabung
+        installation: Installation
+        account-credit: Kontoguthaben
+        due: Fällig
+        mail-check: Scheck einsenden
+        mail-check-title: Aktualisiert den Status auf "E-Mail einchecken", damit der Empfänger darauf achten kann.
+        pay-with: Bezahlen mit %method%
+        
+shop:
+    shop: Geschäft
+    cart: Wagen
+    add-to: Hinzufügen
+    sales-quest: Verkaufsfragen
+    cust-support: Kundendienst    
+    not-required: Nicht benötigt
+    required: Erforderlich
+    bill-address: Rechnungsadresse
+    ship-address: Lieferanschrift
+    free: Kostenlos    
+    trial: Versuch
+    free-trial: Kostenlose Testphase
+    start-in: ab in
+    store-owner: von %owner%'s Geschäft
+    delete-item: Aus dem Warenkorb entfernen
+    billing-date: Den Tag abgerechnet %day% von jedem %time%
+    billing-date-2: In Rechnung gestellt %day%
+    complete-pay: ' Komplett %freq% Zahlung '
+    total-pay: Gesamt
+    free-prod: Kostenlose Produkte
+    one-time: Einmalige Einkäufe
+    recurring: Wiederkehrende Dienste / Abonnement
+    add-account: Zu meinem Account hinzufügen
+    complete-one-time:  Einmalige Zahlung (en) abschließen
+    total-one-time: "Einmal insgesamt "
+    empty: Ihr Warenkorb ist leer
+        
+chat:
+    new-conv: Neues Gespräch
+    send-message: Eine Nachricht schicken
+    typing: %username% schreibt
+    just-now: gerade jetzt      
+         
+swift:
+    swift_name_both: Name
+    swift_name: Name
+    swift_name_first: Vorname
+    swift_name_last: Nachname
+    swift_name_title: Nenne den Titel
+    swift_name_suffix: Namenszusatz
+    swift_additional_contact_name: 'Name von '
+    swift_email: Email
+    swift_email_tooltip: 
+    swift_email_tooltip_business: Bitte verwenden Sie Ihre primäre Geschäfts-E-Mail-Adresse, wenn Sie sich für ein Unternehmen anmelden. Wir senden Ihre unterschriebene Vereinbarung an diese Adresse.
+    swift_email_tooltip: Primäre persönliche E-Mail. Wir senden Ihre unterschriebene Vereinbarung an diese Adresse und speichern sie online in einem kostenlosen SwiftCloud-Konto, das an diese E-Mail gebunden ist.
+    swift_additional_contact_email: 'E-Mail von ' 
+    swift_phone: Telefon
+    swift_phone_tooltip_format: 'Format '
+    swift_street_1: Straße
+    swift_street_2: Straße
+    swift_city: Stadt
+    swift_state: Staat
+    swift_postalcode: Postleitzahl
+    swift_additional_contact_phone: 'Telefon von '
+    swift_address: Geben Sie Ihre Adresse ein
+    swift_date: Datum auswählen
+    swift_datepicker: Datum auswählen
+    swift_dateuserlocal: Datum auswählen
+    swift_dateuserlocal_long: Datum auswählen
+    swift_datetime_long: Select date
+    swift_timepicker: Datum auswählen
+    swift_timeuserlocal: Zeit auswählen
+    swift_time_long: Zeit auswählen
+    swift_timegmt: Zeit auswählen
+    swift_date_dropdown_day: Tag auswählen
+    swift_date_dropdown_month: Wähle einen Monat
+    swift_date_dropdown_year: Wählen Sie Jahr
+    swift_button: Einreichen
+    swift_form_content_button: Einreichen
+    swift_form_content_send: Formularinhalt senden
+    swift_form_content_button_alert: JavaScript muss aktiviert sein, um dieses Dokument zu signieren. Bitte überprüfen Sie Ihre Browsereinstellungen und laden Sie diese Seite neu, um fortzufahren.
+    swift_print_button: Drucken
+    swift_print_button_alert: JavaScript muss aktiviert sein, um dieses Dokument zu signieren. Bitte überprüfen Sie Ihre Browsereinstellungen und laden Sie diese Seite neu, um fortzufahren.
+    swiftsignature_clear: klar
+    swiftsignature_type: Art
+    swift_my_signature: Meine Unterschrift
+    move: Bewegung
+    swift_uploader: Alle Absagen
+    swift_webcam: Machen Sie ein Foto mit der Webcam
+    swift_file_upload: Foto hochladen
+    remove: Entfernen
+    swift_image_upload: Foto hochladen
+    swift_credit_card: Kartennummer
+    swift_credit_card_name: Vollständiger Name
+    swift_birthdate_picker: Datum auswählen
+    swift_datetime: Datum und Uhrzeit auswählen
+    
+    
+                

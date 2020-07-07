@@ -1,0 +1,214 @@
+## YAML Template.
+code: 'bfh-flag-CN'
+name: '中文'
+login:
+    modal-body-text: 1点击登录与...
+    or: 要么
+    remember: 记住我
+    donot_account: 没有帐号？
+    form:
+        email_placeholder: 电子邮件
+        password_placeholder: 密码
+    error:
+        reset_password_link: 注意在这里重置您的密码？
+        invalid_credentials: 无效证件
+        authentication_problem: 由于系统问题，验证请求无法处理
+    login_trouble: 登录问题？
+    login_btn: 登录
+    signup_btn: 注册
+    terms_of_use: 使用条款
+    privacy_policy: 隐私政策
+    press: 按
+    careers: 招聘
+    login_msg: 通过注册或登录，您同意我们的迷人
+    tool_tip: 此应用不公开发布，除非您在营销部分专门使用该工具。
+signup:
+    modal-body-text: 一键注册...
+    or: 要么
+    form:
+        name_placeholder: 名称
+        confirm_password_placeholder: 确认密码
+        email_placeholder: 电子邮件
+        password_placeholder: 密码
+        your_name: 你的名字
+        work_email: 工作电子邮件
+    create_account_btn: 创建帐号
+    hooked_up: 已经被钩了
+    tool_tip: 此应用不公开发布，除非您在营销部分专门使用该工具。
+footer:
+    powered-by: 供电
+    terms-of-use: 使用条款
+    privacy: 隐私
+    press: 按
+    carrers: 招聘
+    accessibility: 辅助功能
+signableDoc:
+    validations:
+      fieldRequired: 这是必填栏
+      invalidEmail: 无效的邮件地址
+      invalidUrl: 无效的网址
+      invalidPhone: 无效的电话号码
+      selectFile: 请选择文件
+      signBelow: 请在下面签名 
+
+date-time-system:
+    select-day: 天
+    select-month: 月
+    select-year: 年
+    select-hours: 小时
+    select-minutes: 分钟
+    select-ampm: 上午下午
+    days-of-week:
+      monday: 星期一
+      tuesday: 星期二
+      wednesday: 星期三
+      thursday: 星期四
+      friday: 星期五
+      saturday: 星期六
+      sunday: 星期日
+    months-of-year:
+      january: 一月
+      february: 二月
+      march: 游行
+      april: 四月
+      may: 可以
+      june: 六月
+      july: 七月
+      august: 八月
+      september: 九月
+      october: 十月
+      november: 十一月
+      december: 十二月    
+envelope:
+    preview:
+      question:
+        ask: 问一个问题  
+        send: 发送问题
+      decline:
+          decline-sign: 拒绝签名
+          decline-sign-header: 关心详细吗？我们会将注释传递给文档所有者。
+      
+invoice:
+    terms: 根据我们的结算条款，在 %days％ 天之内未支付的所有未付款发票均应每月收取 ％percent %% 的滞纳金。
+    invoice: 发票
+    sent-from: 来自
+    sent-to: 送至
+    estimate: 估计
+    quote: 引用
+    purchase-order: 报价购买订单
+    credit-memo: 贷项凭证
+    receipt: 收据 
+    date: %type%%article% 日期
+    total: %type% 总
+    status:
+        due: 到期
+        partial: 部分付款
+        paid: 已付
+        canceled: 取消
+        refunded: 已退款
+        unpaid: 未付
+        unpaid-overdue: 逾期未付
+        not-yet-committed: 尚未承诺
+        committed: 承诺的
+    header:         
+        item: 项目
+        memo: 备忘录    
+        sub-total: 小计
+        description: 描述
+        discount: 折扣        
+        previous-pay: 以前的付款 %plural%
+        ship-hand: 运送和处理
+        installation: 安装
+        account-credit: 帐户信用
+        due: 到期
+        mail-check: 邮寄支票
+        mail-check-title: 将状态更新为“签入邮件”，以便收件人可以查找它。
+        pay-with: 使用。。。支付 %method%
+        
+shop:
+    shop: 店
+    cart: 大车
+    add-to: 添加
+    sales-quest: 销售问题
+    cust-support: 客户支持    
+    not-required: 不需要
+    required: 需要
+    bill-address: 帐单地址
+    ship-address: 送货地址
+    free: 自由    
+    trial: 试用版
+    free-trial: 免费试用
+    start-in: 开始于
+    store-owner: 从 %owner%'s 商店
+    delete-item: 从购物车中删除
+    billing-date: 计费当天 %day% 每个 %time%
+    billing-date-2: 开票 %day%
+    complete-pay: ' 完成 %freq% 付款 '
+    total-pay: 总
+    free-prod: 免费产品
+    one-time: 一次性购买
+    recurring: 定期服务/订阅
+    add-account: 添加到我的帐户
+    complete-one-time:  完成一次付款
+    total-one-time: "一共 "
+    empty: 您的购物车是空的
+        
+chat:
+    new-conv: 新对话
+    send-message: 发送一个消息
+    typing: %username% 在写字
+    just-now: 现在      
+         
+swift:
+    swift_name_both: 名称
+    swift_name: 名称
+    swift_name_first: 名字
+    swift_name_last: 姓
+    swift_name_title: 名字标题
+    swift_name_suffix: 名称后缀
+    swift_additional_contact_name: '的名字 '
+    swift_email: 电子邮件
+    swift_email_tooltip: 
+    swift_email_tooltip_business: 如果代表企业签名，请使用您的主要企业电子邮件。 我们会将您签署的协议发送到该地址。
+    swift_email_tooltip: 主要个人电子邮件。 我们会将您签署的协议发送到该地址，并将其在线存储在与该电子邮件绑定的免费SwiftCloud帐户中。
+    swift_additional_contact_email: '的电子邮件 ' 
+    swift_phone: 电话
+    swift_phone_tooltip_format: '格式 '
+    swift_street_1: 街1
+    swift_street_2: 街2
+    swift_city: 市
+    swift_state: 州
+    swift_postalcode: 邮政编码
+    swift_additional_contact_phone: '的电话'
+    swift_address: 输入你的地址
+    swift_date: 选择日期
+    swift_datepicker: 选择日期
+    swift_dateuserlocal: 选择日期
+    swift_dateuserlocal_long: 选择日期
+    swift_datetime_long: 选择日期
+    swift_timepicker: 选择时间
+    swift_timeuserlocal: 选择时间
+    swift_time_long: 选择时间
+    swift_timegmt: 选择时间
+    swift_date_dropdown_day: 选择日
+    swift_date_dropdown_month: 选择一个月
+    swift_date_dropdown_year: 选择年份
+    swift_button: 提交
+    swift_form_content_button: 提交
+    swift_form_content_send: 发送表格内容
+    swift_form_content_button_alert: 必须启用JavaScript才能对此文档进行签名。 请检查您的浏览器设置，然后重新加载此页面以继续。
+    swift_print_button: 打印
+    swift_print_button_alert: 必须启用JavaScript才能打印此文档。 请检查您的浏览器设置，然后重新加载此页面以继续。
+    swiftsignature_clear: 明确
+    swiftsignature_type: 类型
+    swift_my_signature: 我的签名
+    move: 移动
+    swift_uploader: 全部取消
+    swift_webcam: 使用网络摄像头拍照
+    swift_file_upload: 上传照片
+    remove: 去掉
+    swift_image_upload: 上传照片
+    swift_credit_card: 卡号
+    swift_credit_card_name: 全名
+    swift_birthdate_picker: 选择日期
+    swift_datetime: 选择日期和时间

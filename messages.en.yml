@@ -1,0 +1,265 @@
+## YAML Template.
+code: 'bfh-flag-US'
+name: 'English'
+general:
+    no-content: No content found
+    signing-as: Signing as
+    previous: Go to previous
+    next-page: Next Page
+    sign-send: Sign and Send
+    close: Close
+    log-off: Log Off
+    quantity: Quantity
+    price: Price
+    total: Total
+    date: Date
+    print: Print
+    phone: Phone
+    sign-out: Sign Out
+    sign-in: Sign In
+    search: Search
+    about: About
+    pay-method: Payment Method    
+    address: Address
+    details: Details
+    of: of
+    then: then
+    hour: hour
+    help: Help
+    tax: Tax
+login:
+    modal-body-text: 1-Click Login With...
+    or: or
+    remember: Remember me
+    donot_account: Don't have an account?
+    form:
+        email_placeholder: Email
+        password_placeholder: Password
+    error:
+        reset_password_link: Care to reset your password here?
+        invalid_credentials: Invalid credentials
+        authentication_problem: Authentication request could not be processed due to a system problem
+    login_trouble: Login Troubles?
+    login_btn: Login
+    signup_btn: Signup
+    terms_of_use: terms of Use
+    privacy_policy: privacy policy
+    press: Press
+    careers: Careers
+    login_msg: By signing up or logging in, you are agreeing to our fascinating
+    tool_tip: This app does not post publicly, unless you specifically use the tool to do so in the marketing section.
+    login-products:        
+        today: Today
+        thereafter: thereafter
+        start-period: starting in %startPreriod%
+        today-total: Today's Total
+Today: Today  
+Tomorrow: Tomorrow
+D: Day%plural%
+W: Week%plural%
+M: Month%plural%
+Q: Quarter%plural%
+Y: Year%plural%
+Daily: Daily
+Weekly: Weekly
+Monthly: Monthly
+Quarterly: Quarterly
+Yearly: Yearly        
+signup:
+    modal-body-text: 1-Click Signup With...
+    or: or
+    form:
+        name_placeholder: Name
+        confirm_password_placeholder: Confirm Password
+        email_placeholder: Email
+        password_placeholder: Password
+        your_name: Your Name
+        work_email: Work Email
+    create_account_btn: Create Account
+    hooked_up: Already Hooked Up?
+    tool_tip: This app does not post publicly, unless you specifically use the tool to do so in the marketing section.
+reset_password:
+    recover_account: Recover your account
+    reset_password_message: We can help you reset your password and security info. First, enter your Swift account email
+    work_email: Work Email
+    email_placeholder: Email
+    send_link: Send Reset Password Link
+    hooked_up: Already Hooked Up?
+    login: Login
+footer:
+    powered-by: Powered by
+    terms-of-use: Terms of Use
+    privacy: Privacy
+    press: Press
+    carrers: Careers
+    accessibility: Accessibility
+signableDoc:
+    validations:
+      fieldRequired: This field is required.
+      invalidEmail: Invalid email address.
+      invalidUrl: Invalid URL.
+      invalidPhone: Invalid phone number.
+      selectFile: Please select file.
+      signBelow: Please sign below.
+date-time-system:
+    select-day: Day
+    select-month: Month
+    select-year: Year
+    select-hours: Hours
+    select-minutes: Minutes
+    select-ampm: AM/PM
+    days-of-week:
+      monday: Monday
+      tuesday: Tuesday
+      wednesday: Wednesday
+      thursday: Thursday
+      friday: Friday
+      saturday: Saturday
+      sunday: Sunday
+    months-of-year:
+      january: January
+      february: February
+      march: March
+      april: April
+      may: May
+      june: June
+      july: July
+      august: August
+      september: September
+      october: October
+      november: November
+      december: December    
+envelope:
+    preview:
+      question:
+        ask: Ask a Question    
+        send: Send Question
+      decline:
+          decline-sign: Decline to Sign
+          decline-sign-header: Care to elaborate? We'll pass a note to the document owner.
+      
+invoice:
+    terms: Any unpaid invoices not paid within %days% days are subject to a %percent%% per month late fee, as per our billing terms.
+    invoice: Invoice
+    sent-from: Sent From
+    sent-to: Sent To
+    estimate: Estimate
+    quote: Quote
+    purchase-order: Purchase Order
+    credit-memo: Credit memo
+    receipt: Receipt   
+    date: %type%%article% Date
+    total: %type% Total
+    status:
+        due: Due
+        partial: Partially Paid
+        paid: PAID
+        canceled: Canceled
+        refunded: Refunded
+        unpaid: Unpaid
+        unpaid-overdue: Unpaid overdue
+        not-yet-committed: Not Yet Committed
+        committed: Committed
+    header:         
+        item: Item
+        memo: Memo    
+        sub-total: Sub Total
+        description: Description
+        discount: Discount        
+        previous-pay: Previous Payment%plural%
+        ship-hand: Shiping and Handling
+        installation: Installation
+        account-credit: Account Credit
+        due: Due
+        mail-check: Mail a Check
+        mail-check-title: Updates status to Check In Mail so recipient can look out for it.
+        pay-with: Pay with %method%
+        
+shop:
+    shop: Shop
+    cart: Cart
+    add-to: Add To
+    sales-quest: Sales Questions
+    cust-support: Customer Support    
+    not-required: Not Required
+    required: Required
+    bill-address: Billing Address
+    ship-address: Shipping Address
+    free: Free    
+    trial: Trial
+    free-trial: FREE Trial
+    start-in: starting in
+    store-owner: From %owner%'s Store
+    delete-item: Remove from Cart
+    billing-date: Billed the day %day% of each %time%
+    billing-date-2: Billed %day%
+    complete-pay: ' Complete %freq% Payment '
+    total-pay: Total
+    free-prod: Free Products
+    one-time: One-Time Purchases
+    recurring: Recurring Services/Subscription
+    add-account: Add to My Account
+    complete-one-time:  Complete One Time Payment(s)
+    total-one-time: "One Time Total "
+    empty: Your cart is empty
+        
+chat:
+    new-conv: New Conversation
+    send-message: Send a message
+    typing: %username% is writing
+    just-now: just now          
+         
+swift:
+    swift_name_both: Name
+    swift_name: Name
+    swift_name_first: First Name
+    swift_name_last: Last Name
+    swift_name_title: Name Title
+    swift_name_suffix: Name Suffix
+    swift_additional_contact_name: 'Name of '
+    swift_email: Email
+    swift_email_tooltip: 
+    swift_email_tooltip_business: Please use your primary business email if signing on behalf of a business. We'll send your signed agreement to this address.
+    swift_email_tooltip: Primary personal email. We'll send your signed agreement to this address and store it online in a free SwiftCloud account for you tied to this email.
+    swift_additional_contact_email: 'Email of ' 
+    swift_phone: Phone
+    swift_phone_tooltip_format: 'Format '
+    swift_street_1: Street
+    swift_street_2: Street
+    swift_city: City
+    swift_state: State
+    swift_postalcode: Postal code
+    swift_additional_contact_phone: 'Phone of'
+    swift_address: Address
+    swift_date: Select date
+    swift_datepicker: Select date
+    swift_dateuserlocal: Select date
+    swift_dateuserlocal_long: Select date
+    swift_datetime_long: Select date
+    swift_timepicker: Select time
+    swift_timeuserlocal: Select time
+    swift_time_long: Select time
+    swift_timegmt: Select time
+    swift_date_dropdown_day: Select Day
+    swift_date_dropdown_month: Select Month
+    swift_date_dropdown_year: Select Year
+    swift_button: Submit
+    swift_form_content_button: Submit
+    swift_form_content_send: Send Form Contents
+    swift_form_content_button_alert: JavaScript must be enabled to sign this document. Please check your browser settings and reload this page to continue.
+    swift_print_button: Print
+    swift_print_button_alert: avaScript must be enabled to print this document. Please check your browser settings and reload this page to continue.
+    swiftsignature_clear: Clear
+    swiftsignature_type: Type
+    swift_my_signature: My Signature
+    move: Move
+    swift_uploader: Cancel All
+    swift_webcam: Take a Photo Using Webcam
+    swift_file_upload: Upload Photo
+    remove: Remove
+    swift_image_upload: Upload Photo
+    swift_credit_card: Card number
+    swift_credit_card_name: Full name
+    swift_birthdate_picker: Select date
+    swift_datetime: Select date & time
+      

@@ -1,0 +1,260 @@
+## YAML Template.
+code: 'bfh-flag-ES'
+name: 'Español'
+general:
+    no-content: No se encontró contenido
+    signing-as: Firmando como
+    previous: Ir al anterior
+    next-page: Siguiente Página
+    sign-send: Firmar y Enviar
+    close: Cerrar
+    log-off: Desconectarse   
+    quantity: Cantidad
+    price: Precio
+    total: Total
+    date: Fecha
+    print: Imprimir
+    phone: Teléfono
+    sign-out: Desconectar
+    sign-in: Conectar
+    search: Buscar
+    about: Acerca de
+    pay-method: Método de pago    
+    address: Dirección
+    details: Detalles
+    of: de
+    then: luego
+    hour: hora
+    help: Ayuda
+    tax: Impuesto
+login:
+    modal-body-text: 1-Haga clic en Iniciar sesión con ...
+    or: o
+    remember: Recuérdame
+    donot_account: ¿No tiene una cuenta?
+    form:
+        email_placeholder: Correo electrónico
+        password_placeholder: Contraseña
+    error:
+        reset_password_link: ¿Quieres restablecer tu contraseña aquí?
+        invalid_credentials: Credenciales no válidas
+        authentication_problem: La solicitud de autenticación no se pudo procesar debido a un problema del sistema
+    login_trouble: ¿Problemas de acceso?
+    login_btn: Iniciar sesión
+    signup_btn: Regístrate
+    terms_of_use: condiciones de uso
+    privacy_policy: política de privacidad 
+    press: Presione
+    careers: Carreras
+    login_msg: Al inscribirse o iniciar sesión, está de acuerdo con nuestras fascinantes 
+    tool_tip: Esta aplicación no se publica públicamente, a menos que utilice específicamente la herramienta para hacerlo en la sección de marketing.
+    login-products:        
+        today: Hoy
+        thereafter: a partir de entonces
+        start-period: empezando en %startPreriod%
+        today-total: Total de Hoy
+Today: Hoy  
+Tomorrow: Mañana
+D: Día%plural%
+W: Semana%plural%
+M: Mes%plural%
+Q: Trimestre%plural%
+Y: Año%plural%
+Daily: Diariamente
+Daily2: Diario
+Weekly: Semanalmente
+Monthly: Mensualmente
+Quarterly: Trimestralmente
+Yearly: Anualmente 
+        
+signup:
+    modal-body-text: 1-Haga clic en Registrarse con ...
+    or: o
+    form:
+        name_placeholder: Nombre
+        confirm_password_placeholder: Confirmar contraseña
+        email_placeholder: Correo electrónico
+        password_placeholder: Contraseña
+        your_name: Tu nombre
+        work_email: Correo electrónico del trabajo
+    create_account_btn: Crear una cuenta
+    hooked_up: ¿Ya estás conectado?
+    tool_tip: Esta aplicación no se publica públicamente, a menos que utilice específicamente la herramienta para hacerlo en la sección de marketing.
+footer:
+    powered-by: Potenciado por
+    terms-of-use: Términos de Uso
+    privacy: Privacidad
+    press: prensa
+    carrers: Empleo
+    accessibility: Accesibilidad
+signableDoc:
+    validations:
+      fieldRequired: este campo es requerido
+      invalidEmail: Dirección de correo electrónico no válida
+      invalidUrl: URL invalida
+      invalidPhone: Numero de telefono invalido
+      selectFile: Por favor seleccione el archivo
+      signBelow: Por favor firme abajo
+date-time-system:
+    select-day: día
+    select-month: Mes
+    select-year: Año
+    select-hours: horas
+    select-minutes: minutos
+    select-ampm: AM PM
+    days-of-week:
+      monday: Lunes
+      tuesday: Martes
+      wednesday: Miércoles
+      thursday: Jueves
+      friday: Viernes
+      saturday: Sábado
+      sunday: Domingo
+    months-of-year:
+      january: Enero
+      february: Febrero
+      march: Marzo
+      april: Abril
+      may: Mayo
+      june: Junio
+      july: Julio
+      august: Agosto
+      september: Septiembre
+      october: Octubre
+      november: Noviembre
+      december: Diciembre   
+envelope:
+    preview:
+      question:
+        ask: Haz una Pregunta    
+        send: Enviar Pregunta
+      decline:
+          decline-sign: Rechazar Firmar
+          decline-sign-header: ¿Necesita asistencia para elaborar? Le pasaremos una nota al propietario del documento.      
+invoice:
+    terms: Cualquier factura no pagada que no se haya pagado dentro de %days% días está sujeta a un recargo del %percent%% mensual, según nuestros términos de facturación.    
+    invoice: Factura
+    sent-from: Enviad%gender% Por
+    sent-to: Enviad%gender% A
+    estimate: Estimado
+    quote: Presupuesto
+    purchase-order: Orden de Compra
+    credit-memo: Nota de crédito
+    receipt: Recibo
+    date: Fecha %article% %type%
+    total: %type% Total
+    invoice-total: Total de la %type%
+    receipt-total: Total del %type%
+    status:
+        due: Debido
+        partial: Pagado parcialmente
+        paid: PAGADO
+        canceled: Cancelado
+        refunded: Reintegrado
+        unpaid: No pagado
+        unpaid-overdue: Pago atrasado
+        not-yet-committed: No Entregado
+        committed: Entregado
+    header:         
+        item: Artículo
+        memo: Memo    
+        sub-total: Sub Total
+        description: Descripción
+        discount: Descuento        
+        previous-pay: Pago%plural% Previo%plural%
+        ship-hand: Envío y Manejo
+        installation: Instalación
+        account-credit: Crédito de la Cuenta
+        due: a Pagar
+        mail-check: Cheque por Correo
+        mail-check-title: Actualice el estado a Cheque por Correo para que el receptor pueda ir a buscarlo.
+        pay-with: Pagar con %method%
+        empty: Su Carrito está vacío.
+        
+shop:
+    shop: Tienda
+    cart: Carrito
+    add-to: Añadir Al
+    sales-quest: Preguntas de Ventas
+    cust-support: Atención al Cliente    
+    not-required: No Requerido
+    required: Requerido
+    bill-address: Dirección de Facturación
+    ship-address: Dirección de Envío
+    free: Gratis    
+    trial: de Prueba
+    free-trial: Prueba GRATIS
+    start-in: empezando en
+    store-owner: De la Tienda de %owner%
+    delete-item: Eliminar del Carrito
+    billing-date: Facturado el día %day% de cada %time%
+    billing-date-2: Facturado %day%
+    complete-pay: ' Completar Pago %freq% '
+    total-pay: Total
+    free-prod: Productos Gratis
+    one-time: Compras Únicas
+    recurring: Servicio/Subscripción Recurrente 
+    add-account: Aádir a Mi Cuenta
+    complete-one-time:  Completar Pago(s) Único(s)
+    total-one-time: "Total Único "
+        
+chat:
+    new-conv: Nueva Conversación
+    send-message: Enviar un mensaje
+    typing: %username% está escribiendo
+    just-now: justo ahora
+        
+swift:
+    swift_name_both: Nombre
+    swift_name: Nombre
+    swift_name_first: Nombre
+    swift_name_last: Apellido(s)
+    swift_name_title: Titulo
+    swift_name_suffix: Sufijo del Nombre
+    swift_additional_contact_name: 'Nombre de '
+    swift_email: Correo electrónico
+    swift_email_tooltip_business: Por favor utilice su correo electrónico de negocios principal si firma en nombre de una empresa. Le enviaremos su acuerdo firmado a esta dirección.
+    swift_email_tooltip: Correo electrónico personal principal. Le enviaremos su acuerdo firmado a esta dirección y lo almacenaremos en línea en una cuenta gratuita de SwiftCloud para usted vinculada a este correo electrónico.
+    swift_additional_contact_email: 'Correo electrónico de ' 
+    swift_phone: Teléfono
+    swift_phone_tooltip_format: 'Formato '
+    swift_street_1: Calle
+    swift_street_2: Calle
+    swift_city: Ciudad
+    swift_state: Estado
+    swift_postalcode: Código Postal
+    swift_additional_contact_phone: 'Teléfono de'
+    swift_address: Entre su dirección
+    swift_date: Seleccionar fecha
+    swift_datepicker: Seleccionar fecha
+    swift_dateuserlocal: Seleccionar fecha
+    swift_dateuserlocal_long: Seleccionar fecha
+    swift_datetime_long: Seleccionar fecha
+    swift_timepicker: Seleccionar hora
+    swift_timeuserlocal: Seleccionar hora
+    swift_time_long: Seleccionar hora
+    swift_timegmt: Seleccionar hora
+    swift_date_dropdown_day: Seleccionar Día
+    swift_date_dropdown_month: Seleccionar Mes
+    swift_date_dropdown_year: Seleccionar Año
+    swift_button: Enviar
+    swift_form_content_button: Enviar
+    swift_form_content_send: Enviar Contenido del Formulario
+    swift_form_content_button_alert: JavaScript debe estar habilitado para firmar este documento. Verifique la configuración de su navegador y vuelva a cargar esta página para continuar.
+    swift_print_button: Imprimir
+    swift_print_button_alert: JavaScript debe estar habilitado para imprimir este documento. Verifique la configuración de su navegador y vuelva a cargar esta página para continuar.
+    swiftsignature_clear: Limpiar
+    swiftsignature_type: Tipo
+    swift_my_signature: Mi Firma
+    move: Mover
+    swift_uploader: Cancelar Todo
+    swift_webcam: Tome una Foto Usando la Webcam
+    swift_file_upload: Cargar Foto
+    remove: Eliminar
+    swift_image_upload: Cargar Foto
+    swift_credit_card: Número de Tarjeta
+    swift_credit_card_name: Nombre completo
+    swift_birthdate_picker: Seleccionar fecha
+    swift_datetime: Seleccionar fecha y hora    
+        
+          

@@ -1,0 +1,222 @@
+## YAML Template.
+code: 'bfh-flag-HI'
+name: 'हिंदी'
+login:
+    modal-body-text: 1-क्लिक के साथ लॉगिन करें ...
+    or: या
+    remember: मुझे याद रखना
+    donot_account: खाता नहीं है?
+    form:
+        email_placeholder: ईमेल
+        password_placeholder: पासवर्ड
+    error:
+        reset_password_link: यहां अपना पासवर्ड रीसेट करने की देखभाल है?
+        invalid_credentials: अवैध प्रत्यय पत्र
+        authentication_problem: सिस्टम समस्या के कारण प्रमाणीकरण अनुरोध संसाधित नहीं किया जा सका
+    login_trouble: लॉग इन ट्रबल्स?
+    login_btn: लॉग इन करें
+    signup_btn: साइन अप करें
+    terms_of_use: उपयोग की शर्तें
+    privacy_policy: गोपनीयता नीति
+    press: प्रेस
+    careers: करियर
+    login_msg: साइन अप करके या लॉग इन करके, आप हमारे आकर्षक से सहमत हैं 
+    tool_tip: यह ऐप सार्वजनिक रूप से पोस्ट नहीं करता है, जब तक आप विशेष रूप से विपणन अनुभाग में ऐसा करने के लिए उपकरण का उपयोग नहीं करते हैं 
+signup:
+    modal-body-text: 1-क्लिक के साथ साइनअप करें ...
+    or: या
+    form:
+        name_placeholder: नाम
+        confirm_password_placeholder: पासवर्ड की पुष्टि कीजिये
+        email_placeholder: ईमेल
+        password_placeholder: पासवर्ड
+        your_name: आपका नाम
+        work_email: कार्य ईमेल
+    create_account_btn: खाता बनाएं
+    hooked_up: पहले से ही हुक अप?
+    tool_tip: यह ऐप सार्वजनिक रूप से पोस्ट नहीं करता है, जब तक आप विशेष रूप से विपणन अनुभाग में ऐसा करने के लिए उपकरण का उपयोग नहीं करते हैं 
+reset_password:
+    recover_account: अपना खाता पुनर्प्राप्त करें
+    reset_password_message: हम आपको आपका पासवर्ड और सुरक्षा जानकारी रीसेट करने में मदद कर सकते हैं। सबसे पहले, अपना स्विफ्ट खाता ईमेल दर्ज करें
+    work_email: कार्य ईमेल
+    email_placeholder: ईमेल
+    send_link: रीसेट पासवर्ड लिंक भेजें
+    hooked_up: पहले से जुड़े हुए हैं?
+    login: लॉग इन करें
+footer:
+    powered-by: द्वारा संचालित
+    terms-of-use: उपयोग की शर्तें
+    privacy: गोपनीयता नीति
+    press: प्रेस
+    carrers: करियर
+    accessibility: सरल उपयोग
+signableDoc:
+    validations:
+      fieldRequired: यह फ़ील्ड आवश्यक है
+      invalidEmail: अवैध ईमेल पता
+      invalidUrl: अवैध URL.
+      invalidPhone: अवैध फोन नंबर
+      selectFile: कृपया फ़ाइल का चयन करें
+      signBelow: कृपया नीचे हस्ताक्षर करें
+
+date-time-system:
+    select-day: दिन
+    select-month: महीना
+    select-year: वर्ष
+    select-hours: घंटे
+    select-minutes: मिनट
+    select-ampm: दोपहर से पूर्व दोपहर के बाद
+    days-of-week:
+      monday: सोमवार
+      tuesday: मंगलवार
+      wednesday: बुधवार
+      thursday: गुरूवार
+      friday: शुक्रवार
+      saturday: शनिवार
+      sunday: रविवार
+    months-of-year:
+      january: जनवरी
+      february: फरवरी
+      march: मार्च
+      april: अप्रैल
+      may: मई
+      june: जून
+      july: जुलाई
+      august: अगस्त
+      september: सितंबर
+      october: अक्टूबर
+      november: नवंबर
+      december: दिसंबर    
+envelope:
+    preview:
+      question:
+        ask: प्रश्न पूछें   
+        send: प्रश्न भेजें
+      decline:
+          decline-sign: साइन करने के लिए अस्वीकार
+          decline-sign-header: विस्तृत करने के लिए परवाह? हम दस्तावेज़ स्वामी को एक नोट देंगे.
+      
+invoice:
+    terms: %days% दिनों के दिनों में भुगतान नहीं किए गए किसी भी अवैतनिक चालान हमारी बिलिंग शर्तों के अनुसार प्रति माह एक %percent% प्रति माह शुल्क के अधीन हैं।
+    invoice: बीजक
+    sent-from: द्वारा भेजा गया
+    sent-to: भेजा
+    estimate: आकलन
+    quote: उद्धरण
+    purchase-order: क्रय आदेश
+    credit-memo: क्रेडिट ज्ञापन
+    receipt: रसीद   
+    date: %type%%article% दिनांक
+    total: %type% संपूर्ण
+    status:
+        due: देय
+        partial: आंशिक रूप से भुगतान किया
+        paid: भुगतान किया है
+        canceled: रद्द
+        refunded: वापसी की गई है
+        unpaid: अवैतनिक
+        unpaid-overdue: बकाया राशि
+        not-yet-committed: अभी तक प्रतिबद्ध नहीं है
+        committed: प्रतिबद्ध
+    header:         
+        item: मद
+        memo: मेमो    
+        sub-total: उप कुल
+        description: विवरण
+        discount: छूट        
+        previous-pay: पिछला भुगतान %plural%
+        ship-hand: शिपिंग और हैंडलिंग
+        installation: स्थापना
+        account-credit: खाता क्रेडिट
+        due: देय
+        mail-check: एक चेक मेल करें
+        mail-check-title: मेल में जाँच करने के लिए अद्यतन स्थिति तो प्राप्तकर्ता इसके लिए बाहर देख सकते हैं।
+        pay-with: के साथ भुगतान करें %method%
+        
+shop:
+    shop: दुकान
+    cart: गाड़ी
+    add-to: में जोड़े
+    sales-quest: बिक्री प्रश्न
+    cust-support: ग्राहक सहेयता    
+    not-required: आवश्यक नहीं
+    required: अपेक्षित
+    bill-address: बिल भेजने का पता
+    ship-address: शिपिंग पता
+    free: नि शुल्क    
+    trial: आज़माइश
+    free-trial: मुफ्त आज़माइश
+    start-in: में शुरू
+    store-owner: से %owner%'s Store
+    delete-item: कार्ट से निकालें
+    billing-date: दिन का बिल दिया %day% of each %time%
+    billing-date-2: बिल भेजा गया %day%
+    complete-pay: ' पूर्ण %freq% Payment '
+    total-pay: संपूर्ण
+    free-prod: नि शुल्क उत्पाद
+    one-time: एक बार की खरीद
+    recurring: आवर्ती सेवाएँ / सदस्यता
+    add-account: मेरे खाते में जोड़ें
+    complete-one-time:  एक बार भुगतान पूरा करें
+    total-one-time: "वन टाइम टोटल "
+    empty: आपकी गाड़ी खाली है
+        
+chat:
+    new-conv: नई बातचीत
+    send-message: एक संदेश भेजें
+    typing: %username% लिख रहा है
+    just-now: अभी       
+         
+swift:
+    swift_name_both: नाम
+    swift_name: नाम
+    swift_name_first: पहला नाम
+    swift_name_last: उपनाम
+    swift_name_title: नाम शीर्षक
+    swift_name_suffix: नाम प्रत्यय
+    swift_additional_contact_name: ' का नाम'
+    swift_email: ईमेल
+    swift_email_tooltip: 
+    swift_email_tooltip_business: यदि किसी व्यवसाय की ओर से हस्ताक्षर करते हैं तो कृपया अपने प्राथमिक व्यवसाय ईमेल का उपयोग करें। हम आपके हस्ताक्षरित अनुबंध को इस पते पर भेज देंगे।
+    swift_email_tooltip: प्राथमिक व्यक्तिगत ईमेल। हम इस पते पर आपके हस्ताक्षर किए गए अनुबंध को भेजेंगे और इस ईमेल से बंधे हुए ऑनलाइन स्विफ्टक्लाउड खाते में ऑनलाइन स्टोर करेंगे।
+    swift_additional_contact_email: ' का ईमेल' 
+    swift_phone: फ़ोन
+    swift_phone_tooltip_format: 'फार्मेट '
+    swift_street_1: सड़क
+    swift_street_2: सड़क
+    swift_city: शहर
+    swift_state: राज्य
+    swift_postalcode: डाक कोड
+    swift_additional_contact_phone: ' का फोन'
+    swift_address: अपना पता दर्ज करें
+    swift_date: तारीख़ चुनें
+    swift_datepicker: तारीख़ चुनें
+    swift_dateuserlocal: तारीख़ चुनें
+    swift_dateuserlocal_long: तारीख़ चुनें
+    swift_datetime_long: तारीख़ चुनें
+    swift_timepicker: समय चुनें
+    swift_timeuserlocal: समय चुनें
+    swift_time_long: समय चुनें
+    swift_timegmt: समय चुनें
+    swift_date_dropdown_day: दिन चुनें
+    swift_date_dropdown_month: महीना चुनें
+    swift_date_dropdown_year: साल चुनें
+    swift_button: प्रस्तुत
+    swift_form_content_button: प्रस्तुत
+    swift_form_content_send: प्रपत्र सामग्री भेजें
+    swift_form_content_button_alert: इस दस्तावेज़ पर हस्ताक्षर करने के लिए जावास्क्रिप्ट सक्षम होना चाहिए। कृपया अपनी ब्राउज़र सेटिंग जांचें और जारी रखने के लिए इस पृष्ठ को पुनः लोड करें।
+    swift_print_button: छपाई
+    swift_print_button_alert: इस दस्तावेज़ पर हस्ताक्षर करने के लिए जावास्क्रिप्ट सक्षम होना चाहिए। कृपया अपनी ब्राउज़र सेटिंग जांचें और जारी रखने के लिए इस पृष्ठ को पुनः लोड करें।
+    swiftsignature_clear: साफ़
+    swiftsignature_type: प्रकार
+    swift_my_signature: मेरे हस्ताक्षर
+    move: हिलना
+    swift_uploader: सब रद्द करो
+    swift_webcam: वेबकैम का उपयोग करके एक फोटो लें
+    swift_file_upload: फोटो अपलोड करें
+    remove: हटाना
+    swift_image_upload: फोटो अपलोड करें
+    swift_credit_card: कार्ड नंबर
+    swift_credit_card_name: पूरा नाम
+    swift_birthdate_picker: तारीख़ चुनें
+    swift_datetime: तारीख़ और समय चुनें

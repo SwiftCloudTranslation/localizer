@@ -1,0 +1,222 @@
+## YAML Template.
+code: 'bfh-flag-KO'
+name: '한국어'
+login:
+    modal-body-text: 1 번 클릭 로그인 ...
+    or: 또는
+    remember: 날 기억해
+    donot_account: 계정이 없으십니까?
+    form:
+        email_placeholder: 이메일
+        password_placeholder: 암호
+    error:
+        reset_password_link: 여기에서 비밀번호를 재설정 할 때주의해야합니까?
+        invalid_credentials: 잘못된 자격 증명
+        authentication_problem: 시스템 문제로 인해 인증 요청을 처리하지 못했습니다.
+    login_trouble: 로그인 문제?
+    login_btn: 로그인
+    signup_btn: 가입
+    terms_of_use: 이용 약관
+    privacy_policy: 개인 정보 정책
+    press: 프레스
+    careers: 채용 정보
+    login_msg: 가입 또는 로그인을 통해 우리는 매혹적인
+    tool_tip: 이 앱은 특별히 마케팅 섹션에서 도구를 사용하지 않는 한 공개적으로 게시하지 않습니다.
+signup:
+    modal-body-text: 1 회 클릭 가입 ...
+    or: 또는
+    form:
+        name_placeholder: 이름
+        confirm_password_placeholder: 비밀번호 확인
+        email_placeholder: 이메일
+        password_placeholder: 암호
+        your_name: 당신의 이름
+        work_email: 직장 이메일
+    create_account_btn: 계정 만들기
+    hooked_up: 벌써 묶여 있니?
+    tool_tip: 이 앱은 특별히 마케팅 섹션에서 도구를 사용하지 않는 한 공개적으로 게시하지 않습니다.
+reset_password:
+    recover_account: 계정 복구
+    reset_password_message: 비밀번호 및 보안 정보를 재설정 할 수 있도록 도와 드리겠습니다. 먼저 Swift 계정 이메일을 입력하십시오.
+    work_email: 직장 이메일
+    email_placeholder: 이메일
+    send_link: 비밀번호 재설정 링크 보내기
+    hooked_up: 벌써 묶여 있니?
+    login: 로그인
+footer:
+    powered-by: 에 의해 제공
+    terms-of-use: 이용 약관
+    privacy: 은둔
+    press: 프레스
+    carrers: 채용 정보
+    accessibility: 접근성
+signableDoc:
+    validations:
+      fieldRequired: 이 입력란은 필수 항목입니다.
+      invalidEmail: 잘못된 이메일 주소.
+      invalidUrl: 잘못된 URL.
+      invalidPhone: 유효하지 않은 전화 번호.
+      selectFile: 파일을 선택하십시오.
+      signBelow: 아래에 서명하십시오.      
+
+date-time-system:
+    select-day: 일
+    select-month: 달
+    select-year: 년
+    select-hours: 시간
+    select-minutes: 의사록
+    select-ampm: 오전 오후
+    days-of-week:
+      monday: 월요일
+      tuesday: 화요일
+      wednesday: 수요일
+      thursday: 목요일
+      friday: 금요일
+      saturday: 토요일
+      sunday: 일요일
+    months-of-year:
+      january: 일월
+      february: 이월
+      march: 행진
+      april: 4 월
+      may: 5 월
+      june: 유월
+      july: 칠월
+      august: 팔월
+      september: 9 월
+      october: 십월
+      november: 십일월
+      december: 12 월    
+envelope:
+    preview:
+      question:
+        ask: 질문하기    
+        send: 질문 보내기
+      decline:
+          decline-sign: 서명 거부
+          decline-sign-header: 정교하게 관리? 문서 소유자에게 메모를 전달합니다.
+      
+invoice:
+    terms: 미지급 송장 내에서 지불되지 않은 %days% 요일은 %percent%% 청구 조건에 따라 월 지연 요금이 부과됩니다.
+    invoice: 송장
+    sent-from: 부터 보내진
+    sent-to: 전송
+    estimate: 견적
+    quote: 인용문
+    purchase-order: 구매 오더
+    credit-memo: 대변 ​​메모
+    receipt: 영수증   
+    date: %type%%article% 데이트
+    total: %type% 합계
+    status:
+        due: 정당한
+        partial: 일부 유료
+        paid: 유료
+        canceled: 취소 된
+        refunded: 환불
+        unpaid: 미지급
+        unpaid-overdue: 미지급 연체
+        not-yet-committed: 아직 완결되지 않은
+        committed: 헌신
+    header:         
+        item: 안건
+        memo: 메모    
+        sub-total: 소계
+        description: 기술
+        discount: 할인        
+        previous-pay: 이전 결제 %plural%
+        ship-hand: 배송 및 취급
+        installation: 설치
+        account-credit: 계정 크레딧
+        due: 정당한
+        mail-check: 수표 발송
+        mail-check-title: 받는 사람이 찾을 수 있도록 상태를 메일 체크인으로 업데이트합니다.
+        pay-with: 지불 %method%
+        
+shop:
+    shop: 가게
+    cart: 카트
+    add-to: 추가
+    sales-quest: 영업 질문
+    cust-support: 고객 지원    
+    not-required: 불필요
+    required: 필수
+    bill-address: 청구 지 주소
+    ship-address: 배송 주소
+    free: 비어 있는    
+    trial: 시도
+    free-trial: 무료 시험판
+    start-in: 시작
+    store-owner: 에서 %owner%'s 저장
+    delete-item: 장바구니에서 제거
+    billing-date: 하루 청구 %day% 각각의 %time%
+    billing-date-2: 청구 %day%
+    complete-pay: ' 완전한 %freq% Payment '
+    total-pay: 합계
+    free-prod: 무료 제품
+    one-time: 일회성 구매
+    recurring: 되풀이 서비스 / 구독
+    add-account: 내 계정에 추가하다
+    complete-one-time:  일회성 결제 완료
+    total-one-time: "한 번 총계 "
+    empty: 장바구니가 비어 있습니다
+        
+chat:
+    new-conv: 새로운 대화
+    send-message: 메시지를 보내다
+    typing: %username% 기록하고있다
+    just-now: 방금      
+         
+swift:
+    swift_name_both: 이름
+    swift_name: 이름
+    swift_name_first: 이름
+    swift_name_last: 성
+    swift_name_title: 이름 제목
+    swift_name_suffix: 이름 접미사
+    swift_additional_contact_name: '의 이름 '
+    swift_email: 이메일
+    swift_email_tooltip: 
+    swift_email_tooltip_business: 비즈니스를 대신하여 서명 할 경우 기본 비즈니스 이메일을 사용하십시오. 서명 한 계약서를이 주소로 보내드립니다.
+    swift_email_tooltip: 기본 개인 이메일. 서명 한 계약서를이 주소로 보내고이 이메일에 묶인 무료 SwiftCloud 계정으로 온라인에 저장합니다.
+    swift_additional_contact_email: '의 이메일 ' 
+    swift_phone: 전화
+    swift_phone_tooltip_format: '체재 '
+    swift_street_1: 거리
+    swift_street_2: 거리
+    swift_city: 시티
+    swift_state: 경지
+    swift_postalcode: 우편 번호
+    swift_additional_contact_phone: '전화 '
+    swift_address: 주소를 입력하십시오
+    swift_date: 날짜 선택
+    swift_datepicker: 날짜 선택
+    swift_dateuserlocal: 날짜 선택
+    swift_dateuserlocal_long: 날짜 선택
+    swift_datetime_long: 날짜 선택
+    swift_timepicker: 시간을 선택하십시오
+    swift_timeuserlocal: 시간을 선택하십시오
+    swift_time_long: 시간을 선택하십시오
+    swift_timegmt: 시간을 선택하십시오
+    swift_date_dropdown_day: 요일 선택
+    swift_date_dropdown_month: 월을 선택하십시오
+    swift_date_dropdown_year: 연도 선택
+    swift_button: 제출
+    swift_form_content_button: 제출
+    swift_form_content_send: 양식 내용 보내기
+    swift_form_content_button_alert: 이 문서에 서명하려면 JavaScript가 활성화되어 있어야합니다. 계속하려면 브라우저 설정을 확인하고이 페이지를 다시로드하십시오.
+    swift_print_button: 인쇄
+    swift_print_button_alert: 이 문서에 서명하려면 JavaScript가 활성화되어 있어야합니다. 계속하려면 브라우저 설정을 확인하고이 페이지를 다시로드하십시오.
+    swiftsignature_clear: 명확한
+    swiftsignature_type: 유형
+    swift_my_signature: 내 서명
+    move: 움직임
+    swift_uploader: 모두 취소
+    swift_webcam: 웹캠을 사용하여 사진 찍기
+    swift_file_upload: 사진 업로드
+    remove: 없애다
+    swift_image_upload: 사진 업로드
+    swift_credit_card: 카드 번호
+    swift_credit_card_name: 성명
+    swift_birthdate_picker: 날짜 선택
+    swift_datetime: 날짜 및 시간 선택
