@@ -1,6 +1,154 @@
 ## YAML Template.
 code: 'bfh-flag-RU'
 name: 'Россия'
+general:
+    no-content: Контент не найден
+    signing-as: Подписание как
+    previous: Перейти к предыдущему
+    next-page: Следующая Страница
+    sign-send: Подпишите и отправьте
+    close: близко
+    log-off: Выйти
+    quantity: Количество
+    price: Цена
+    total: Общее количество
+    date: Дата
+    print: Распечатать
+    phone: Телефон
+    sign-out: Выход
+    sign-in: Войти в систему
+    welcome: Добро пожаловать
+    search: Поиск
+    about: Около
+    pay-method: Способ оплаты
+    address: Адрес
+    details: подробности
+    of: из
+    then: затем
+    hour: час
+    help: Помогите
+    tax: Налог
+    privacy-cookies: Конфиденциальность и файлы cookie
+    use-of-cookie: Этот сайт использует файлы cookie. Продолжая использовать этот сайт, вы соглашаетесь на их использование. Чтобы узнать больше, в том числе о том, как управлять файлами cookie, см. Здесь
+    cookie-policy: Политика использования файлов cookie
+    accept: Принять
+    decline: Отказаться
+    verify: Проверить
+    getStartedNow: Начать сейчас
+    processing: Обработка ...
+    confirm: Подтвердить
+    please: Please
+    edit: Edit
+    copy: Copy
+    share: Share
+    via_sms: via SMS
+    menu: Menu
+    review: Review
+    write-a-review: Write a review
+    average: Average
+    total-star: %averageStar% out of %totalStar%
+    continued: continued
+    yes: Yes
+    no: No
+    save: Save
+    
+menu:
+    saving: Saving
+    success: Success
+    alert: Alert
+    fail: Fail
+    abort-cancel: Abort / Cancel
+    online: Online
+    do-not-disturb: Do Not Disturb
+    show-as-away: Show as Away
+    on-a-call: On a Call
+    with-a-role: With a %userrole%
+    logged-in-as: Logged in as %username%
+    inbox-communication: Inbox & Communication
+    contacts: Contacts
+    all-contacts: All Contacts
+    drive-storage: Drive / Storage
+    calendar: Calendar
+    tasks-projects: Tasks & Projects
+    groups: Groups
+    waivers-petition-signers: Waivers / Petition Signers
+    add-new: Add New
+    import-spreadsheet: Import Spreadsheet
+    web-form-chat-sessions: Web Form & Chat Sessions
+    drive: Drive
+    upload: Upload
+    new-doc: New Doc
+    timeclock: Timeclock
+    upcoming-appointments: Upcoming Appointments
+    add-event: Add Event
+    schedulers: Schedulers
+    marketing: Marketing
+    tracking-URL-creator: URL Creator
+    marketing-experiments: Marketing Experiments
+    support: Support
+    this-page-help: This Page Help
+    support-center: Support Center
+    resource-library: Resource Library
+    settings: Settings
+    change-password: Change Password
+    edit-profile: Edit Profile
+    logOut: LogOut
+    as-signor: As Signor
+    as-receiver: As Receiver
+    signature-forms: Signature Forms
+    all-tasks: All Tasks
+    workrooms: Workrooms
+    priorities: Priorities
+    templates-automation: Templates & Automation
+    open-tickets: Open Tickets
+    customer-feedback: Customer Feedback
+    knowledgebase: Knowledgebase
+    templates-playbooks: Templates & Playbooks
+    all-new: All New
+    clients-vendors: Clients & Vendors
+    accounting: Accounting
+    incoming: Incoming
+    SKUs-items-you-sell: SKUs / Items you sell
+    create-new-invoice: Create New Invoice
+    invoices-receivable: Invoices (Receivable)
+    new-receivable: New Receivable
+    aged-receivables: Aged Receivables
+    billing-agreements: Billing Agreements
+    outgoing: Outgoing
+    purchase-history: Purchase History
+    add-payable: Add Payable
+    invoices-payable: Invoices (Payable)
+    upcoming: Upcoming
+    add-liability: Add Liability
+    aged-payables: Aged Payables
+    add-vendor: Add Vendor
+    everything: Everything
+    import-records: Import Records
+    receipt-capture: Receipt Capture
+    balance-sheet: Balance Sheet
+    tools: Tools
+    projections: Projections
+    cash-flow: Cash Flow
+    profit-loss: Profit & Loss
+    break-even: Break-Even
+    project-budget: Project Budget
+    checkout-now: Checkout Now
+    view-cart: View Cart
+    view-accounts: View Accounts
+    reviews-referrals: Reviews & Referrals
+    review-intake-forms: Review Intake Forms
+    refer-a-friend: Refer a Friend
+    broadcast-email-SMS: Broadcast Email & SMS
+    web-forms: Web Forms
+    create-new-form: Create New Form
+    my-forms: My Forms
+    marketing-sequences: Marketing Sequences
+    disconnect-from-company: Disconnect From Company
+    this-will-disconnect-you-from-company: This will disconnect you from this company. Are you sure you wish to do that? 
+    no-abort-cancel: No, Abort / Cancel
+    yes-Proceed: Yes, Proceed
+    change-to-unshared: Change to Unshared / My SwiftCloud
+    
 login:
     modal-body-text: 1-щелчок авторизоваться с ...
     or: или
@@ -13,15 +161,48 @@ login:
         reset_password_link: Вы можете сбросить свой пароль здесь?
         invalid_credentials: Недопустимые учетные данные
         authentication_problem: Запрос подлинности не может быть обработан из-за системной проблемы
+        empty_password: Password should not be blank.
+        password_length: Password must be six characters long.
     login_trouble: Войти Проблемы?
     login_btn: Авторизоваться
+    logoff_btn: Выйти
     signup_btn: Зарегистрироваться
+    loggedInAs: Вы вошли как
     terms_of_use: Условия эксплуатации
     privacy_policy: политика конфиденциальности
     press: Нажмите
     careers: Карьера
     login_msg: Зарегистрировавшись или войдя в систему, вы соглашаетесь с нашими увлекательными
     tool_tip: Это приложение не публикуется публично, если вы специально не используете этот инструмент для этого в разделе маркетинга.
+    login-products:
+        quantity: quantity
+        today: Cегодня
+        thereafter: после этого
+        start-period: начиная с %startPreriod%
+        today-total: Итого на сегодня
+    login-failed: Login failed.
+    click-to-reset-password: Click here to reset your password
+    login-failed-3-times: Login has failed 3 times, please wait 15 minutes before attempting this account again.
+    message-will-disappear: This message will disappear when you can retry, in
+    account-blocked: This account has been locked due to suspicious traffic after 10 failed login attempts.
+    unlock-account: to unlock this account.
+    contact-support: contact support
+Today: Cегодня
+Tomorrow: Завтра
+D: День%plural%
+W: Неделя%plural%
+M: Месяц%plural%
+Q: Квартал%plural%
+Y: Год%plural%
+Years: Years
+Daily: Ежедневно
+Weekly: Еженедельно
+Monthly: Ежемесячно
+Quarterly: Ежеквартальный
+Yearly: Ежегодно
+Time-AM: am
+Time-PM: pm
+Next-Week: Next Week
 signup:
     modal-body-text: 1-щелчок Зарегистрироваться c ...
     or: или
@@ -32,9 +213,26 @@ signup:
         password_placeholder: пароль
         your_name: Ваше имя
         work_email: Работа электронной почты
+        phone: Phone
     create_account_btn: Регистрация
     hooked_up: Уже зацепился?
     tool_tip: Это приложение не публикуется публично, если вы специально не используете этот инструмент для этого в разделе маркетинга.
+    error:
+        username_required: Please enter username
+        email_required: Please enter email address
+        email_invalid: Please enter valid email address
+        password_required: Please enter password
+        password_minlength: Password length should be atleast 6 characters
+        confirm_password_required: Please enter confirm password
+        password_mismatch: Password and confirm password mismatch
+reset_password:
+    recover_account: Восстановите свой аккаунт
+    reset_password_message: Мы можем помочь вам сбросить пароль и информацию о безопасности. Сначала введите адрес электронной почты своей учетной записи Swift
+    work_email: Рабочий адрес электронной почты
+    email_placeholder: Эл. адрес
+    send_link: Отправить ссылку для сброса пароля
+    hooked_up: Уже на связи?
+    login: Авторизоваться
 footer:
     powered-by: Питаться от
     terms-of-use: Условия эксплуатации
@@ -44,12 +242,132 @@ footer:
     accessibility: доступность
 signableDoc:
     validations:
-      fieldRequired: Это поле обязательно к заполнению
-      invalidEmail: Неверный адрес электронной почты
-      invalidUrl: Неверная ссылка
-      invalidPhone: Неправильный номер телефона
-      selectFile: Выберите файл
-      signBelow: Пожалуйста, подпишите ниже
+        fieldRequired: Это поле обязательно к заполнению
+        invalidEmail: Неверный адрес электронной почты
+        invalidUrl: Неверная ссылка
+        invalidPhone: Неправильный номер телефона
+        selectFile: Выберите файл
+        signBelow: Пожалуйста, подпишите ниже
+        allFieldsAreRequired: Все поля обязательны к заполнению
+    Thanks: Спасибо
+    you-are-all-set: Все готово.
+    reset-form: Сброс форма
+    use-selected: Использовать выбранное
+    your-name-here: Ваше имя
+    type-here: Введите здесь
+    select-your-week: Выберите рабочую неделю
+    select-week: Выберите неделю
+    next-week: Следующая неделя
+    this-week: Эта неделя
+    last-week: Прошлая неделя
+    timesheet-description: Description
+    timesheet-in-time: В
+    timesheet-out-time: Вне
+    timesheet-add-time: Добавить время
+    timesheet-remove-time: Удалить время
+    timesheet-add-pto: Add PTO Time
+    timesheet-remove-pto: Remove PTO Time
+    name-on-card: Имя на карте
+    enter-billing-address: Введите свой платежный адрес
+    name-of-bank: Название банка
+    name-on-account: Имя аккаунта
+    routing-number: Номер маршрута
+    account-number: Номер аккаунта
+    stars: stars
+    star: star
+    absolutely-terrible: Абсолютно ужасно
+    excellent: Превосходно
+    terrible: Terrible
+    serious-problems: Serious Problems
+    below-expectations: Below Expectations
+    just-so-so: Meh. Just so-so
+    good-not-great: Good not great
+    great: Great
+    hate-it: Ненавидеть это
+    love-it: Любить это
+    strongly-disagree: Strongly disagree
+    disagree: Disagree
+    neutral: Neutral
+    agree: Agree
+    strongly-agree: Strongly agree
+    click-to-copy: Нажмите, чтобы скопировать
+    drag-and-drop-file: फ़ाइलें खींचें और छोड़ें या चयन करने के लिए क्लिक करें
+    only-allow: Only allow
+    contact-information: Contact Information
+    contact-form: Contact Form
+    emailVerification:
+        please-click: Щелкните ссылку, которую мы отправили вам по электронной почте.
+        almost-done: Почти готово - нажмите на письмо, которое мы вам отправили, чтобы подтвердить свою личность. Доставка писем может занять до 6 минут. Если вы его не видите, проверьте спам или корзину.
+        need-to-verify: Требуется проверка на другом устройстве? Пожалуйста, введите код, который мы отправили вам по электронной почте.
+    landingForm:
+        name_placeholder: название
+        email_placeholder: Эл. адрес
+        phone_placeholder: Телефон
+        subject_placeholder: Subject
+        message_placeholder: Message
+        privacy-assured: Гарантия конфиденциальности.
+        data-secured: Данные защищены с помощью системы безопасности банковского уровня.
+    complete-my-purchase: Завершить покупку
+    download-this-product: ДА! Загрузите этот замечательный продукт прямо сейчас!
+    scheduler:
+        purpose: Purpose
+        meeting-type: Meeting Type
+        date-time: Date & Time
+        scheduler-for: Scheduler for %schedulerName%
+        select-service: Select a Service
+        select-language: Пожалуйста, выберите часовой пояс
+        select-time: Выберите время
+        select-day: Выберите день
+        end-of-day: до конца дня
+        about-you: О тебе...
+        confirm: Confirm
+        scheduled: Scheduled
+        send-a-reminder: Мы пришлем напоминание.
+        confirm-schedule: Подтвердить и запланировать
+        confirmed-complete: Подтверждено и завершено
+        add-to-calendar: Нажмите, чтобы добавить в календарь ...
+        appointment: Деловое свидание, встреча
+        your-details: Ваши данные
+        no-services-found: No service created yet
+        your-local-time: Your local time
+        release-time-notice:  Are you still there? We had to release this time. When you're ready to complete your booking, please click here to ensure your chosen time is available.
+        refresh-availability: Refresh Availability
+        select-date-time: Select Date & Time
+        may-we-suggest: May we suggest...
+        soonest-available: Soonest Available
+        closest-to-this-time: Closest to this time
+        or-perhaps: or perhaps...
+        previous: Previous
+        please-confirm: Please Confirm...
+        enter-your-card-detail: Enter your card detail
+        exp-month: Exp. Month
+        exp-year: Exp. Year
+        usually-3-digit-code: Usually a 3 Digit Code on the back
+        CVV: 4 for Amex - Card Verification Value
+        checkout: Checkout
+        confirmed-complete: Confirmed & Complete
+        your-booking-is-confirmed: Your booking is confirmed
+        booking-success-msg: The booking details will be sent to the email you provided.
+        click-to-add-to-calendar: Click To Add To Calendar...
+        additional-info: Additional info
+        meeting-details: Meeting Details
+        we-are-holding: We are holding this time for you to prevent double booking.
+        book-an-appointment: Book an Appointment
+        no-schedule-found: No Schedule Found
+        confirm-complete-payment: Confirm & Complete Payment
+        complete-payment-booking: Complete Payment & Booking
+        complete-booking: Complete Booking
+        confirm-appointment: Confirm Appointment
+    start-for-just: Начни всего за
+    please-enter-valid-itemid: Please enter a valid Itemid
+    user-not-found: User not found.
+    itemid-does-not-exists: Itemid %itemId% does not exists in your store.
+    item-found-but-missing-details: Item found but missing other details. Save the item details first.
+    welcome-back: Welcome back!
+    we-have-draft-session: We have a draft session previously saved for you with this doc, would you like to resume your session?
+    stripe-payment-successfull: Stripe payment has been completed successfully!
+    redirect-to-next-page: Redirect to Next Page
+    
 date-time-system:
     select-day: день
     select-month: месяц
@@ -58,35 +376,255 @@ date-time-system:
     select-minutes: минуты
     select-ampm: ДО ПОЛУДНЯ
     days-of-week:
-      monday: понедельник
-      tuesday: вторник
-      wednesday: среда
-      thursday: Четверг
-      friday: пятница
-      saturday: суббота
-      sunday: Воскресенье
+        monday: понедельник
+        tuesday: вторник
+        wednesday: среда
+        thursday: Четверг
+        friday: пятница
+        saturday: суббота
+        sunday: Воскресенье
     months-of-year:
-      january: январь
-      february: февраль
-      march: марш
-      april: апрель
-      may: май
-      june: июнь
-      july: июль
-      august: августейший
-      september: сентябрь
-      october: октября
-      november: ноябрь
-      december: Декабрь    
+        january: январь
+        february: февраль
+        march: марш
+        april: апрель
+        may: май
+        june: июнь
+        july: июль
+        august: августейший
+        september: сентябрь
+        october: октября
+        november: ноябрь
+        december: Декабрь
+    day-numbers:
+        0: 0
+        0-5: 0.5
+        1: 1
+        1-5: 1.5
+        2: 2
+        2-5: 2.5
+        3: 3
+        3-5: 3.5
+        4: 4
+        4-5: 4.5
+        5: 5
+        6: 6
+        7: 7
+        8: 8
+        9: 9
+        10: 10
+        11: 11
+        12: 12
+        13: 13
+        14: 14
+        15: 15
+        16: 16
+        17: 17
+        18: 18
+        19: 19
+        20: 20
+        21: 21
+        22: 22
+        23: 23
+        24: 24
+        25: 25
+        26: 26
+        27: 27
+        28: 28
+        29: 29
+        30: 30
+        31: 31
+        32: 32
+        33: 33
+        34: 34
+        35: 35
+        36: 36
+        37: 37
+        38: 38
+        39: 39
+        40: 40
+        41: 41
+        42: 42
+        43: 43
+        44: 44
+        45: 45
+        46: 46
+        47: 47
+        48: 48
+        49: 49
+        50: 50
+        51: 51
+        52: 52
+        53: 53
+        54: 54
+        55: 55
+        56: 56
+        57: 57
+        58: 58
+        59: 59
+        60: 60
+    year-numbers:
+        1900: 1900
+        1901: 1901
+        1902: 1902
+        1903: 1903
+        1904: 1904
+        1905: 1905
+        1906: 1906
+        1907: 1907
+        1908: 1908
+        1909: 1909
+        1910: 1910
+        1911: 1911
+        1912: 1912
+        1913: 1913
+        1914: 1914
+        1915: 1915
+        1916: 1916
+        1917: 1917
+        1918: 1918
+        1919: 1919
+        1920: 1920
+        1921: 1921
+        1922: 1922
+        1923: 1923
+        1924: 1924
+        1925: 1925
+        1926: 1926
+        1927: 1927
+        1928: 1928
+        1929: 1929
+        1930: 1930
+        1931: 1931
+        1932: 1932
+        1933: 1933
+        1934: 1934
+        1935: 1935
+        1936: 1936
+        1937: 1937
+        1938: 1938
+        1939: 1939
+        1940: 1940
+        1941: 1941
+        1942: 1942
+        1943: 1943
+        1944: 1944
+        1945: 1945
+        1946: 1946
+        1947: 1947
+        1948: 1948
+        1949: 1949
+        1950: 1950
+        1951: 1951
+        1952: 1952
+        1953: 1953
+        1954: 1954
+        1955: 1955
+        1956: 1956
+        1957: 1957
+        1958: 1958
+        1959: 1959
+        1960: 1960
+        1961: 1961
+        1962: 1962
+        1963: 1963
+        1964: 1964
+        1965: 1965
+        1966: 1966
+        1967: 1967
+        1968: 1968
+        1969: 1969
+        1970: 1970
+        1971: 1971
+        1972: 1972
+        1973: 1973
+        1974: 1974
+        1975: 1975
+        1976: 1976
+        1977: 1977
+        1978: 1978
+        1979: 1979
+        1980: 1980
+        1981: 1981
+        1982: 1982
+        1983: 1983
+        1984: 1984
+        1985: 1985
+        1986: 1986
+        1987: 1987
+        1988: 1988
+        1989: 1989
+        1990: 1990
+        1991: 1991
+        1992: 1992
+        1993: 1993
+        1994: 1994
+        1995: 1995
+        1996: 1996
+        1997: 1997
+        1998: 1998
+        1999: 1999
+        2000: 2000
+        2001: 2001
+        2002: 2002
+        2003: 2003
+        2004: 2004
+        2005: 2005
+        2006: 2006
+        2007: 2007
+        2008: 2008
+        2009: 2009
+        2010: 2010
+        2011: 2011
+        2012: 2012
+        2013: 2013
+        2014: 2014
+        2015: 2015
+        2016: 2016
+        2017: 2017
+        2018: 2018
+        2019: 2019
+        2020: 2020
+        2021: 2021
+        2022: 2022
+        2023: 2023
+        2024: 2024
+        2025: 2025
+        2026: 2026
+        2027: 2027
+        2028: 2028
+        2029: 2029
+        2030: 2030
+        2031: 2031
+        2032: 2032
+        2033: 2033
+        2034: 2034
+        2035: 2035
+        2036: 2036
+        2037: 2037
+        2038: 2038
+        2039: 2039
+        2040: 2040
+        2041: 2041
+        2042: 2042
+        2043: 2043
+        2044: 2044
+        2045: 2045
+        2046: 2046
+        2047: 2047
+        2048: 2048
+        2049: 2049
+        2050: 2050
+
 envelope:
     preview:
       question:
-        ask: Задайте вопрос 
+        ask: Задайте вопрос
         send: Отправить вопрос
       decline:
           decline-sign: Отклонить, чтобы подписать
           decline-sign-header: Хотите разработать? Мы передадим записку владельцу документа.
-      
+
 invoice:
     terms: Все неоплаченные счета, не оплаченные в течение %days% дни подлежат %percent%% в месяц плата за просрочку согласно нашим условиям выставления счетов.
     invoice: Счет-фактура
@@ -96,11 +634,15 @@ invoice:
     quote: котировка
     purchase-order: Заказ на покупку
     credit-memo: Кредитовое авизо
-    receipt: Чек   
+    receipt: Чек
     date: %type%%article% Свидание
     total: %type% Общее количество
+    complete-payment: Complete Payment
+    note-offline-payment: Note Offline Payment
+    tracking-no: Tracking #
     status:
         due: Должное
+        new: New
         partial: Частично оплачено
         paid: ПЛАТНЫЕ
         canceled: отменен
@@ -109,12 +651,12 @@ invoice:
         unpaid-overdue: Неоплаченная просроченная
         not-yet-committed: Еще не совершено
         committed: Совершенные
-    header:         
+    header:
         item: Предмет
-        memo: напоминание    
+        memo: напоминание
         sub-total: Промежуточный итог
         description: Описание
-        discount: скидка        
+        discount: скидка
         previous-pay: Предыдущий платеж %plural%
         ship-hand: Доставка и обработка
         installation: Монтаж
@@ -123,9 +665,10 @@ invoice:
         mail-check: Отправить чек
         mail-check-title: Обновляет статус на Check In Mail, чтобы получатель мог следить за ним.
         pay-with: Оплатить с %method%
-        
+
 shop:
     shop: Магазин
+    add-to-cart: Add to Cart
     cart: телега
     add-to: Добавить к
     sales-quest: SАлесь Вопросы
@@ -134,7 +677,7 @@ shop:
     required: необходимые
     bill-address: Платежный адрес
     ship-address: Адрес доставки
-    free: Свободно    
+    free: Свободно
     trial: пробный
     free-trial: Бесплатная пробная версия Besplatnaya pro
     start-in: начиная с
@@ -151,12 +694,26 @@ shop:
     complete-one-time:  Выполните одноразовые платежи
     total-one-time: "Всего раз "
     empty: Ваша корзина пуста
-        
+    about-seller: About %sellername%
+
 chat:
     new-conv: Новый разговор
     send-message: Отправить сообщение
     typing: %username% пишет
-    just-now: прямо сейчас      
+    just-now: прямо сейчас
+    decline-to-sign: Отклонить подписать
+    care-to-elaborate: Хотите уточнить? Мы передадим записку владельцу документа.
+    send: послать
+    send-a-message: Послать сообщение...
+    how-can-i-help: Чем я могу помочь? Я передам ваш вопрос
+    ask-a-question: Задайте вопрос
+    go-to-previous: Перейти к предыдущему
+    add-private-note: Add Private Note
+    press-enter-to-add: Press Enter to Add
+    add-Message: Add Message
+    add-public-note: Add Public Note (Anyone with Access)
+    chat-with-me: Chat with me
+    send-me-msg: Send Me a Message
 
 swift:
     swift_name_both: имя
@@ -167,16 +724,18 @@ swift:
     swift_name_suffix: имя Суффикс
     swift_additional_contact_name: 'Name из '
     swift_email: Электронное письмо
-    swift_email_tooltip: 
+    swift_email_tooltip:
     swift_email_tooltip_business: Пожалуйста, используйте ваш основной рабочий адрес электронной почты, если вы подписываете от имени компании. Мы отправим подписанное вами соглашение на этот адрес.
     swift_email_tooltip: Основной личный адрес электронной почты. Мы отправим подписанное вами соглашение на этот адрес и сохраним его в Интернете в бесплатной учетной записи SwiftCloud для вас, привязанной к этому письму.
-    swift_additional_contact_email: 'Электронная почта ' 
+    swift_additional_contact_email: 'Электронная почта '
     swift_phone: Телефон
     swift_phone_tooltip_format: 'Формат '
     swift_street_1: улица
     swift_street_2: улица
     swift_city: город
     swift_state: государственный
+    swift_select_state: Выберите штат
+    swift_select_country: Выберите страну
     swift_postalcode: Почтовый индекс
     swift_additional_contact_phone: 'Телефон '
     swift_address: Введите свой адрес
@@ -211,3 +770,79 @@ swift:
     swift_credit_card_name: Полное имя
     swift_birthdate_picker: Выберите дату
     swift_datetime: Выберите дату и время
+    drag-and-drop-file: Перетащите файлы или щелкните, чтобы выбрать
+    only-allow: только
+
+drive:
+    template_library: Библиотека шаблонов
+
+verimail:
+    success: Электронная почта выглядит нормально
+    typo: Вы имели в виду
+    invalidTld_1: Домен верхнего уровня
+    invalidTld_2: не существует
+    domainBlocked_1: Домен
+    domainBlocked_2: не допускается
+    invalidFormat: Электронная почта неправильно отформатирована
+    empty: Адрес электронной почты не должен быть пустым
+
+session:
+    people_permissions: People & Permissions
+    add_new_user: Add New User
+    safari_error: Safari may not render this page well and has known issues affecting Safari only. You can proceed, but we officially recommend Chrome or Firefox.
+    reassign_ownership: Reassign Ownership
+    unstar_contact: Unstar Contact (remove here, will be visible in Team box)
+    edit_contact_detail: Edit Contact Details
+    unlink_from_workroom: Unlink From Workroom
+    share_via_copy_url: Share via Copy URL
+    request_eSignature: Request eSignature
+    history: History
+    via_email: via Email
+    via_copy_url: via Copy URL
+
+publicProfile:
+    save-to-my-contact: Save to My Contacts
+    schedule-followup: Schedule Followup
+    add-to-phone: Add To Phone
+    Im-known-for-or-can-help-with: I'm known for or can help with
+    Im-looking-for-or-considering: I'm looking for or considering...
+    personal-and-fun: Personal and Fun
+    introduction: Introduction
+    chat-offline-msg: I'm offline right now, but will get back to you ASAP on this, usually within a few hours via email, and can follow up via phone if needed. Thanks!
+    no-items-found: No Item Found
+    no-docs-found: No Doc Found
+    no-job-available: No Job available
+    open-positions: Open Positions
+    request-for-proposal: Request For Proposal
+    no-RFP-found: No RFP Found
+    forms-list: Forms List
+    no-forms-found: No form found
+    PDFs-list: PDFs List
+    no-pdfs-found: No PDF found
+    offers-list: Offers List
+    no-offers-found: No Offers Found
+    videos-list: Videos List
+    no-video-found: No Videos Found
+    support:
+        how-can-we-help: How can we help?
+        my-open-tickets-history: My Open Tickets & History
+        search-for: Search for
+        open-support-request: Open Support Request
+        whats-up: What's Up?
+        open-tickets: Open Tickets
+        closed-tickets: Closed Tickets
+        frequently-asked-questions: Frequently Asked Questions
+        recent-support-updates: Recent Support Updates
+        92-of-questions: 92% of Questions have answers online - just search above.
+        interactive-smart-help: Interactive Smart Help - Access the same support our phone techs use.
+        still-need-help: Still need help?
+        click-to-open-support-request: Click to open a support request.
+    optout:
+        manage-your-email-preferences: Manage your e-mail notification preferences from %username%
+        changing-preferences-for: Changing preferences for
+        email-or-phone: Email or Phone
+        important-items-personal-to-me: Important Items personal to me - Receipts, Docs I have e-Signed, Helpdesk tickets I've opened, etc.
+        items-ive-been-personally-added-to: Items I've been personally hand added to - e-Signature Requests, Tasks assigned to me, Invoices, etc.
+        critical-notices-from: Critical notices from %username%
+        news-sales-pecial-offers-marketing-from: News, Sales & Special Offers, Marketing from %username%
+        

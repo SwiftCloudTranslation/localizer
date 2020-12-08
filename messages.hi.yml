@@ -1,6 +1,154 @@
 ## YAML Template.
 code: 'bfh-flag-HI'
 name: 'हिंदी'
+general:
+    no-content: कोई सामग्री नहीं मिली
+    signing-as: के रूप में हस्ताक्षर कर रहे हैं
+    previous: पिछले जाओ
+    next-page: अगला पृष्ठ
+    sign-send: हस्ताक्षर और भेजें
+    close: बंद करे
+    log-off: लॉग ऑफ
+    quantity: मात्रा
+    price: कीमत
+    total: कुल रकम
+    date: तारीख
+    print: छाप
+    phone: फ़ोन
+    sign-out: प्रस्थान करें
+    sign-in: साइन इन करें
+    welcome: स्वागत हे
+    search: खोज
+    about: के बारे में
+    pay-method: भुगतान का तरीका
+    address: पता
+    details: विवरण
+    of: का
+    then: फिर
+    hour: घंटा
+    help: मदद
+    tax: कर
+    privacy-cookies: गोपनीयता और कुकीज़
+    use-of-cookie: यह साइट कुकीज़ का उपयोग करती है। इस वेबसाइट का उपयोग जारी रखने से, आप उनके उपयोग के लिए सहमत होते हैं। कुकीज़ को नियंत्रित करने के तरीके सहित अधिक जानने के लिए यहाँ देखें
+    cookie-policy: कूकी नीति
+    accept: स्वीकार करना
+    decline: पतन
+    verify: सत्यापित करें
+    getStartedNow: अभी शुरू हो जाओ,
+    processing: प्रोसेस हो रहा है ...
+    confirm: पुष्टि करें
+    please: कृपया
+    edit: संपादित करें
+    copy: नकल
+    share: शेयर करें
+    via_sms: एसएमएस के जरिए
+    menu: मेनू
+    review: समीक्षा
+    write-a-review: एक समीक्षा लिखे
+    average: औसत
+    total-star: %totalStar% में से %averageStar% सितारे
+    continued: निरंतर
+    yes: हाँ
+    no: नहीं
+    save: सहेजें
+            
+menu:
+    saving: सहेजा जा रहा है
+    success: सफलता
+    alert: चेतावनी
+    fail: विफल
+    abort-cancel: रद्द करें
+    online: ऑनलाइन
+    do-not-disturb: परेशान न करें
+    show-as-away: दूर है
+    on-a-call: एक कॉल पर है
+    with-a-role: %userrole% के साथ
+    logged-in-as: %username% के रूप में लॉग इन किया
+    inbox-communication: इनबॉक्स और संचार
+    contacts: संपर्क
+    all-contacts: सभी संपर्क
+    drive-storage: सामग्री भंडारण
+    calendar: पंचांग
+    tasks-projects: कार्य और परियोजनाएँ
+    groups: समूह
+    waivers-petition-signers: छूट / याचिका पर हस्ताक्षर करने वाले
+    add-new: नया जोड़ें
+    import-spreadsheet: स्प्रेडशीट आयात करें
+    web-form-chat-sessions: वेब प्रपत्र और बातचीत सत्र
+    drive: सामग्री भंडारण
+    upload: अपलोड
+    new-doc: नया दस्तावेज़
+    timeclock: समय घड़ी
+    upcoming-appointments: आगामी नियुक्तियों
+    add-event: नई घटना जोड़ें
+    schedulers: अनुसूचक
+    marketing: विपणन
+    tracking-URL-creator: लिंक निर्माता
+    marketing-experiments: विपणन प्रयोग
+    support: सहायता
+    this-page-help: यह पृष्ठ सहायता
+    support-center: समर्थन केंद्र
+    resource-library: संसाधन पुस्तकालय
+    settings: सेटिंग
+    change-password: पासवर्ड बदलें
+    edit-profile: प्रोफ़ाइल संपादित करें
+    logOut: साइन आउट
+    as-signor: हस्ताक्षरकर्ता के रूप में
+    as-receiver: प्राप्तकर्ता के रूप में
+    signature-forms: हस्ताक्षर प्रपत्र
+    all-tasks: सभी कार्य
+    workrooms: वर्करूम
+    priorities: प्राथमिकताएं
+    templates-automation: टेम्पलेट्स और स्वचालन
+    open-tickets: खुले टिकट
+    customer-feedback: उपभोक्ता की राय
+    knowledgebase: ज्ञानधार
+    templates-playbooks: टेम्प्लेट और प्लेबुक
+    all-new: बिलकुल नया
+    clients-vendors: ग्राहकों और विक्रेताओं
+    accounting: लेखांकन
+    incoming: आवक
+    SKUs-items-you-sell: आपके द्वारा बेचे गए SKU / आइटम
+    create-new-invoice: नया चालान बनाएँ
+    invoices-receivable: चालान (प्राप्य)
+    new-receivable: नया प्राप्य
+    aged-receivables: वृद्ध प्राप्ति
+    billing-agreements: बिलिंग करार
+    outgoing: बाहर जाने वाली आय
+    purchase-history: खरीद इतिहास
+    add-payable: देय जोड़ें
+    invoices-payable: चालान (देय)
+    upcoming: आगामी आय
+    add-liability: देयता जोड़ें
+    aged-payables: वृद्ध भुगतान
+    add-vendor: विक्रेता जोड़ें
+    everything: सब कुछ
+    import-records: आयात रिकॉर्ड
+    receipt-capture: रसीद कैप्चर
+    balance-sheet: तुलन पत्र
+    tools: उपकरण
+    projections: अनुमान
+    cash-flow: नकदी प्रवाह
+    profit-loss: लाभ हानि
+    break-even: ब्रेक - ईवन
+    project-budget: परियोजना का बजट
+    checkout-now: चेक आउट
+    view-cart: कार्ट देखें
+    view-accounts: खाते देखें
+    reviews-referrals: समीक्षा और रेफ़रल
+    review-intake-forms: इंटेक फॉर्म की समीक्षा करें
+    refer-a-friend: मित्र को आमंत्रित करें
+    broadcast-email-SMS: ईमेल और एसएमएस का प्रसारण करें
+    web-forms: वेब प्रपत्र
+    create-new-form: नया फॉर्म बनाएं
+    my-forms: मेरे फॉर्म
+    marketing-sequences: विपणन अनुक्रम
+    disconnect-from-company: कंपनी से वियोजित करना
+    this-will-disconnect-you-from-company: यह आपको इस कंपनी से अलग कर देगा। क्या आप वाकई ऐसा करने की इच्छा रखते हैं?
+    no-abort-cancel: नहीं, निरस्त / रद्द करें
+    yes-Proceed: हाँ, आगे बढ़ें
+    change-to-unshared: अनशेडर्ड में बदलें / मेरा SwiftCloud
+    
 login:
     modal-body-text: 1-क्लिक के साथ लॉगिन करें ...
     or: या
@@ -13,15 +161,48 @@ login:
         reset_password_link: यहां अपना पासवर्ड रीसेट करने की देखभाल है?
         invalid_credentials: अवैध प्रत्यय पत्र
         authentication_problem: सिस्टम समस्या के कारण प्रमाणीकरण अनुरोध संसाधित नहीं किया जा सका
+        empty_password: पासवर्ड रिक्त नहीं होना चाहिए।
+        password_length: पासवर्ड छह वर्ण लंबा होना चाहिए।
     login_trouble: लॉग इन ट्रबल्स?
     login_btn: लॉग इन करें
+    logoff_btn: लॉग ऑफ
     signup_btn: साइन अप करें
+    loggedInAs: के रूप में लॉग इन किया
     terms_of_use: उपयोग की शर्तें
     privacy_policy: गोपनीयता नीति
     press: प्रेस
     careers: करियर
-    login_msg: साइन अप करके या लॉग इन करके, आप हमारे आकर्षक से सहमत हैं 
-    tool_tip: यह ऐप सार्वजनिक रूप से पोस्ट नहीं करता है, जब तक आप विशेष रूप से विपणन अनुभाग में ऐसा करने के लिए उपकरण का उपयोग नहीं करते हैं 
+    login_msg: साइन अप करके या लॉग इन करके, आप हमारे आकर्षक से सहमत हैं
+    tool_tip: यह ऐप सार्वजनिक रूप से पोस्ट नहीं करता है, जब तक आप विशेष रूप से विपणन अनुभाग में ऐसा करने के लिए उपकरण का उपयोग नहीं करते हैं
+    login-products:
+        quantity: मात्रा
+        today: आज
+        thereafter: फिर
+        start-period: में शुरू %startPreriod%
+        today-total: आज का कुल
+    login-failed: लॉगिन विफल
+    click-to-reset-password: अपना पासवर्ड रीसेट करने के लिए यहां क्लिक करें
+    login-failed-3-times: "लॉगिन 3 बार विफल रहा है, इस खाते को पुन: प्रयास करने के लिए कृपया 15 मिनट प्रतीक्षा करें।"
+    message-will-disappear: "जब आप पुन: प्रयास कर सकते हैं तो यह संदेश गायब हो जाएगा"
+    account-blocked: 10 विफल लॉगिन प्रयासों के बाद संदिग्ध ट्रैफ़िक के कारण इस खाते को बंद कर दिया गया है।
+    unlock-account: इस खाते को अनलॉक करने के लिए।
+    contact-support: सहयोग टीम से संपर्क करें
+Today: आज
+Tomorrow: आने वाला कल
+D: Day%plural%
+W: Week%plural%
+M: Month%plural%
+Q: Quarter%plural%
+Y: Year%plural%
+Years: वर्षों
+Daily: रोज
+Weekly: साप्ताहिक
+Monthly: महीने के
+Quarterly: त्रैमासिक
+Yearly: सालाना
+Time-AM: बजे
+Time-PM: बजे
+Next-Week: अगले सप्ताह
 signup:
     modal-body-text: 1-क्लिक के साथ साइनअप करें ...
     or: या
@@ -32,9 +213,18 @@ signup:
         password_placeholder: पासवर्ड
         your_name: आपका नाम
         work_email: कार्य ईमेल
+        phone: फ़ोन
     create_account_btn: खाता बनाएं
-    hooked_up: पहले से ही हुक अप?
-    tool_tip: यह ऐप सार्वजनिक रूप से पोस्ट नहीं करता है, जब तक आप विशेष रूप से विपणन अनुभाग में ऐसा करने के लिए उपकरण का उपयोग नहीं करते हैं 
+    hooked_up: पहले से जुड़े हुए हैं?
+    tool_tip: यह ऐप सार्वजनिक रूप से पोस्ट नहीं करता है, जब तक आप विशेष रूप से विपणन अनुभाग में ऐसा करने के लिए उपकरण का उपयोग नहीं करते हैं
+    error:
+        username_required: कृपया उपयोगकर्ता नाम दर्ज करें
+        email_required: कृपया ईमेल पता दर्ज करें
+        email_invalid: कृपया मान्य ईमेल पता दर्ज करें
+        password_required: कृप्या पास्वर्ड दर्ज करें
+        password_minlength: पासवर्ड की लंबाई कम से कम 6 अक्षर होनी चाहिए
+        confirm_password_required: कृपया पुष्टि पासवर्ड दर्ज करें
+        password_mismatch: पासवर्ड और पुष्टि पासवर्ड का मेल नहीं हुआ
 reset_password:
     recover_account: अपना खाता पुनर्प्राप्त करें
     reset_password_message: हम आपको आपका पासवर्ड और सुरक्षा जानकारी रीसेट करने में मदद कर सकते हैं। सबसे पहले, अपना स्विफ्ट खाता ईमेल दर्ज करें
@@ -52,13 +242,132 @@ footer:
     accessibility: सरल उपयोग
 signableDoc:
     validations:
-      fieldRequired: यह फ़ील्ड आवश्यक है
-      invalidEmail: अवैध ईमेल पता
-      invalidUrl: अवैध URL.
-      invalidPhone: अवैध फोन नंबर
-      selectFile: कृपया फ़ाइल का चयन करें
-      signBelow: कृपया नीचे हस्ताक्षर करें
-
+        fieldRequired: यह फ़ील्ड आवश्यक है
+        invalidEmail: अवैध ईमेल पता
+        invalidUrl: अवैध URL.
+        invalidPhone: अवैध फोन नंबर
+        selectFile: कृपया फ़ाइल का चयन करें
+        signBelow: कृपया नीचे हस्ताक्षर करें
+        allFieldsAreRequired: सभी फ़ील्ड आवश्यक हैं
+    Thanks: धन्यवाद
+    you-are-all-set: तुम पूरी तरह तैयार हो
+    reset-form: प्रपत्र को रीसेट करें
+    use-selected: चयनित का उपयोग करें
+    your-name-here: आपका नाम यहाँ लिखें
+    type-here: यहा लिखो
+    select-your-week: अपना कार्य सप्ताह चुनें
+    select-week: सप्ताह का चयन करें
+    next-week: अगले सप्ताह
+    this-week: इस सप्ताह
+    last-week: पिछले सप्ताह
+    timesheet-description: विवरण
+    timesheet-in-time: प्रवेश
+    timesheet-out-time: बाहर
+    timesheet-add-time: समय जोड़ें
+    timesheet-remove-time: समय निकालें
+    timesheet-add-pto: PTO समय जोड़ें
+    timesheet-remove-pto: PTO समय निकालें
+    name-on-card: कार्ड पर नाम
+    enter-billing-address: अपना बिलिंग एड्रेस दर्ज करें
+    name-of-bank: बैंक का नाम
+    name-on-account: खाते पर नाम
+    routing-number: राउटिंग नम्बर
+    account-number: खाता नम्बर
+    stars: सितारे
+    star: सीतारा
+    absolutely-terrible: बिल्कुल भयानक
+    excellent: अति उत्कृष्ट
+    terrible: भयानक
+    serious-problems: गंभीर समस्याएं
+    below-expectations: उम्मीदों से नीचे
+    just-so-so: भावहीन। अभी तो इतना
+    good-not-great: ठीक
+    great: अच्छा
+    hate-it: घृणा करता हूं
+    love-it: प्यार करता हूं
+    strongly-disagree: दृढ़तापूर्वक असहमत
+    disagree: असहमत
+    neutral: तटस्थ
+    agree: इस बात से सहमत
+    strongly-agree: दृढ़तापूर्वक सहमत
+    click-to-copy: कॉपी करने के लिए क्लिक करें
+    drag-and-drop-file: फ़ाइलें खींचें और छोड़ें या चयन करने के लिए क्लिक करें
+    only-allow: केवल अनुमति देते हैं
+    contact-information: संपर्क जानकारी
+    contact-form: संपर्क करें
+    emailVerification:
+        please-click: कृपया उस लिंक पर क्लिक करें जो हमने आपको ईमेल किया है।
+        almost-done: लगभग पूरा हो चुका है - कृपया अपनी पहचान की पुष्टि के लिए हमने आपको जो ईमेल भेजा है उसे क्लिक करें। ईमेल आने में 6 मिनट तक का समय लग सकता है, और यदि आप इसे नहीं देखते हैं, तो कृपया अपना स्पैम या कचरा चेक करें।
+        need-to-verify: किसी अन्य डिवाइस पर सत्यापित करने की आवश्यकता है? कृपया वह कोड दर्ज करें जो हमने आपको ईमेल किया है।
+    landingForm:
+        name_placeholder: अपना नाम दर्ज करें
+        email_placeholder: अपना ईमेल पता दर्ज करें
+        phone_placeholder: अपना फ़ोन दर्ज करें
+        subject_placeholder: विषय
+        message_placeholder: अपना संदेश दर्ज करें
+        privacy-assured: गोपनीयता का आश्वासन दिया।
+        data-secured: बैंक-ग्रेड सुरक्षा का उपयोग करके डेटा सुरक्षित।
+    complete-my-purchase: मेरी खरीद पूरी करो
+    download-this-product: हाँ! अब इस बहुत बढ़िया उत्पाद डाउनलोड करें!
+    scheduler:
+        purpose: उद्देश्य
+        meeting-type: मीटिंग का प्रकार
+        date-time: तारीख़ और समय
+        scheduler-for: %schedulerName% के लिए अनुसूचक
+        select-service: एक सेवा का चयन करें
+        select-language: कृपया, समयक्षेत्र चुनें
+        select-time: एक समय का चयन करें
+        select-day: एक दिन का चयन करें
+        end-of-day: दिन का अंत करने के लिए
+        about-you: आपके बारे में
+        confirm: पुष्टि करना
+        scheduled: अनुसूचित
+        send-a-reminder: हम एक अनुस्मारक भेजेंगे।
+        confirm-schedule: पुष्टि और अनुसूची
+        confirmed-complete: पुष्ट और पूर्ण
+        add-to-calendar: कैलेंडर में जोड़ने के लिए क्लिक करें ...
+        appointment: नियुक्ति
+        your-details: आपका विवरण
+        no-services-found: कोई सेवा उपलब्ध नहीं है
+        your-local-time: आपका स्थानीय समय
+        release-time-notice: आप अभी भी वहां हो? हमें इस समय को रिलीज करना होगा. जब आप अपनी बुकिंग पूरी करने के लिए तैयार हों, कृपया यह सुनिश्चित करने के लिए यहां क्लिक करें कि आपका चुना हुआ समय उपलब्ध है।
+        refresh-availability: उपलब्धता को ताज़ा करें
+        select-date-time: दिनांक और समय का चयन करें
+        may-we-suggest: हमारा सुझाव है...
+        soonest-available: जल्द ही उपलब्ध है
+        closest-to-this-time: इस समय के सबसे करीब
+        or-perhaps: या शायद...
+        previous: पिछें
+        please-confirm: कृपया पुष्टि करें...
+        enter-your-card-detail: अपना कार्ड विवरण दर्ज करें
+        exp-month: समाप्ति माह
+        exp-year: समाप्ति साल
+        usually-3-digit-code: आमतौर पर 3 अंकों का कोड
+        CVV: ४ Amex के लिए - CVV सुरक्षा कोड
+        checkout: खरीदने के लिए आगे बढ़ें
+        confirmed-complete: निश्चित आरक्षण
+        your-booking-is-confirmed: आपकी बुकिंग पक्की है
+        booking-success-msg: आपके द्वारा प्रदान किए गए ईमेल पर बुकिंग विवरण भेजा जाएगा।
+        click-to-add-to-calendar: कैलेंडर में जोड़ने के लिए क्लिक करें ...
+        additional-info: अतिरिक्त जानकारी
+        meeting-details: बैठक का विवरण
+        we-are-holding: दोहरी बुकिंग को रोकने के लिए हम आपके लिए इस समय को आरक्षित कर रहे हैं।
+        book-an-appointment: एक नियुक्ति बुक करें
+        no-schedule-found: कोई अनुसूची उपलब्ध नहीं है
+        confirm-complete-payment: भुगतान की पुष्टि और पूरा करें
+        complete-payment-booking: भुगतान पूरा करें और बुकिंग करें
+        complete-booking: बुकिंग पूरी करें
+        confirm-appointment: नियुक्ति की पुष्टि करें
+    start-for-just: बस के लिए शुरू करो
+    please-enter-valid-itemid: कृपया एक मान्य आइटम दर्ज करें
+    user-not-found: उपयोगकर्ता नहीं मिला।
+    itemid-does-not-exists: आइटम %itemId% आपके स्टोर में मौजूद नहीं है।
+    item-found-but-missing-details: आइटम मिला, लेकिन अन्य विवरण उपलब्ध नहीं है। पहले आइटम विवरण सहेजें।
+    welcome-back: वापसी पर स्वागत है!
+    we-have-draft-session: हमारे पास इस डॉक के साथ आपके लिए पहले से तैयार एक मसौदा सत्र है, क्या आप अपना सत्र फिर से शुरू करना चाहेंगे?
+    stripe-payment-successfull: धारी भुगतान सफलतापूर्वक पूरा हो गया है!
+    redirect-to-next-page: अगले पृष्ठ पर पुनर्निर्देशित करें
+    
 date-time-system:
     select-day: दिन
     select-month: महीना
@@ -67,35 +376,255 @@ date-time-system:
     select-minutes: मिनट
     select-ampm: दोपहर से पूर्व दोपहर के बाद
     days-of-week:
-      monday: सोमवार
-      tuesday: मंगलवार
-      wednesday: बुधवार
-      thursday: गुरूवार
-      friday: शुक्रवार
-      saturday: शनिवार
-      sunday: रविवार
+        monday: सोमवार
+        tuesday: मंगलवार
+        wednesday: बुधवार
+        thursday: गुरूवार
+        friday: शुक्रवार
+        saturday: शनिवार
+        sunday: रविवार
     months-of-year:
-      january: जनवरी
-      february: फरवरी
-      march: मार्च
-      april: अप्रैल
-      may: मई
-      june: जून
-      july: जुलाई
-      august: अगस्त
-      september: सितंबर
-      october: अक्टूबर
-      november: नवंबर
-      december: दिसंबर    
+        january: जनवरी
+        february: फरवरी
+        march: मार्च
+        april: अप्रैल
+        may: मई
+        june: जून
+        july: जुलाई
+        august: अगस्त
+        september: सितंबर
+        october: अक्टूबर
+        november: नवंबर
+        december: दिसंबर
+    day-numbers:
+        0: ०
+        0-5: ०.५
+        1: १
+        1-5: १.५
+        2: २
+        2-5: २.५
+        3: ३
+        3-5: ३.५
+        4: ४
+        4-5: ४.५
+        5: ५
+        6: ६
+        7: ७
+        8: ८
+        9: ९
+        10: १०
+        11: ११
+        12: १२
+        13: १३
+        14: १४
+        15: १५
+        16: १६
+        17: १७
+        18: १८
+        19: १९
+        20: २०
+        21: २१
+        22: २२
+        23: २३
+        24: २४
+        25: २५
+        26: २६
+        27: २७
+        28: २८
+        29: २९
+        30: ३०
+        31: ३१
+        32: ३२
+        33: ३३
+        34: ३४
+        35: ३५
+        36: ३६
+        37: ३७
+        38: ३८
+        39: ३९
+        40: ४०
+        41: ४१
+        42: ४२
+        43: ४३
+        44: ४४
+        45: ४५
+        46: ४६
+        47: ४७
+        48: ४८
+        49: ४९
+        50: ५०
+        51: ५१
+        52: ५२
+        53: ५३
+        54: ५४
+        55: ५५
+        56: ५६
+        57: ५७
+        58: ५८
+        59: ५९
+        60: ६०
+    year-numbers:
+        1900: १९००
+        1901: १९०१
+        1902: १९०२
+        1903: १९०३
+        1904: १९०४
+        1905: १९०५
+        1906: १९०६
+        1907: १९०७
+        1908: १९०८
+        1909: १९०९
+        1910: १९१०
+        1911: १९११
+        1912: १९१२
+        1913: १९१३
+        1914: १९१४
+        1915: १९१५
+        1916: १९१६
+        1917: १९१७
+        1918: १९१८
+        1919: १९१९
+        1920: १९२०
+        1921: १९२१
+        1922: १९२२
+        1923: १९२३
+        1924: १९२४
+        1925: १९२५
+        1926: १९२६
+        1927: १९२७
+        1928: १९२८
+        1929: १९२९
+        1930: १९३०
+        1931: १९३१
+        1932: १९३२
+        1933: १९३३
+        1934: १९३४
+        1935: १९३५
+        1936: १९३६
+        1937: १९३७
+        1938: १९३८
+        1939: १९३९
+        1940: १९४०
+        1941: १९४१
+        1942: १९४२
+        1943: १९४३
+        1944: १९४४
+        1945: १९४५
+        1946: १९४६
+        1947: १९४७
+        1948: १९४८
+        1949: १९४९
+        1950: १९५०
+        1951: १९५१
+        1952: १९५२
+        1953: १९५३
+        1954: १९५४
+        1955: १९५५
+        1956: १९५६
+        1957: १९५७
+        1958: १९५८
+        1959: १९५९
+        1960: १९६०
+        1961: १९६१
+        1962: १९६२
+        1963: १९६३
+        1964: १९६४
+        1965: १९६५
+        1966: १९६६
+        1967: १९६७
+        1968: १९६८
+        1969: १९६९
+        1970: १९७०
+        1971: १९७१
+        1972: १९७२
+        1973: १९७३
+        1974: १९७४
+        1975: १९७५
+        1976: १९७६
+        1977: १९७७
+        1978: १९७८
+        1979: १९७९
+        1980: १९८०
+        1981: १९८१
+        1982: १९८२
+        1983: १९८३
+        1984: १९८४
+        1985: १९८५
+        1986: १९८६
+        1987: १९८७
+        1988: १९८८
+        1989: १९८९
+        1990: ११९०
+        1991: ११९१
+        1992: ११९२
+        1993: ११९३
+        1994: ११९४
+        1995: ११९५
+        1996: ११९६
+        1997: ११९७
+        1998: ११९८
+        1999: ११९९
+        2000: २०००
+        2001: २००१
+        2002: २००२
+        2003: २००३
+        2004: २००४
+        2005: २००५
+        2006: २००६
+        2007: २००७
+        2008: २००८
+        2009: २००९
+        2010: २०१०
+        2011: २०११
+        2012: २०१२
+        2013: २०१३
+        2014: २०१४
+        2015: २०१५
+        2016: २०१६
+        2017: २०१७
+        2018: २०१८
+        2019: २०१९
+        2020: २०२०
+        2021: २०२१
+        2022: २०२२
+        2023: २०२३
+        2024: २०२४
+        2025: २०२५
+        2026: २०२६
+        2027: २०२७
+        2028: २०२८
+        2029: २०२९
+        2030: २०३०
+        2031: २०३१
+        2032: २०३२
+        2033: २०३३
+        2034: २०३४
+        2035: २०३५
+        2036: २०३६
+        2037: २०३७
+        2038: २०३८
+        2039: २०३९
+        2040: २०४०
+        2041: २०४१
+        2042: २०४२
+        2043: २०४३
+        2044: २०४४
+        2045: २०४५
+        2046: २०४६
+        2047: २०४७
+        2048: २०४८
+        2049: २०४९
+        2050: २०५०
+        
 envelope:
     preview:
       question:
-        ask: प्रश्न पूछें   
+        ask: प्रश्न पूछें
         send: प्रश्न भेजें
       decline:
           decline-sign: साइन करने के लिए अस्वीकार
           decline-sign-header: विस्तृत करने के लिए परवाह? हम दस्तावेज़ स्वामी को एक नोट देंगे.
-      
+
 invoice:
     terms: %days% दिनों के दिनों में भुगतान नहीं किए गए किसी भी अवैतनिक चालान हमारी बिलिंग शर्तों के अनुसार प्रति माह एक %percent% प्रति माह शुल्क के अधीन हैं।
     invoice: बीजक
@@ -105,11 +634,15 @@ invoice:
     quote: उद्धरण
     purchase-order: क्रय आदेश
     credit-memo: क्रेडिट ज्ञापन
-    receipt: रसीद   
+    receipt: रसीद
     date: %type%%article% दिनांक
     total: %type% संपूर्ण
+    complete-payment: भुगतान पूर्ण करें
+    note-offline-payment: ऑफ़लाइन भुगतान करें
+    tracking-no: खोज संख्या
     status:
         due: देय
+        new: नया
         partial: आंशिक रूप से भुगतान किया
         paid: भुगतान किया है
         canceled: रद्द
@@ -118,12 +651,12 @@ invoice:
         unpaid-overdue: बकाया राशि
         not-yet-committed: अभी तक प्रतिबद्ध नहीं है
         committed: प्रतिबद्ध
-    header:         
+    header:
         item: मद
-        memo: मेमो    
+        memo: मेमो
         sub-total: उप कुल
         description: विवरण
-        discount: छूट        
+        discount: छूट
         previous-pay: पिछला भुगतान %plural%
         ship-hand: शिपिंग और हैंडलिंग
         installation: स्थापना
@@ -132,22 +665,23 @@ invoice:
         mail-check: एक चेक मेल करें
         mail-check-title: मेल में जाँच करने के लिए अद्यतन स्थिति तो प्राप्तकर्ता इसके लिए बाहर देख सकते हैं।
         pay-with: के साथ भुगतान करें %method%
-        
+
 shop:
     shop: दुकान
+    add-to-cart: कार्ट में डालें
     cart: गाड़ी
     add-to: में जोड़े
     sales-quest: बिक्री प्रश्न
-    cust-support: ग्राहक सहेयता    
+    cust-support: ग्राहक सहायता
     not-required: आवश्यक नहीं
     required: अपेक्षित
     bill-address: बिल भेजने का पता
     ship-address: शिपिंग पता
-    free: नि शुल्क    
+    free: नि शुल्क
     trial: आज़माइश
     free-trial: मुफ्त आज़माइश
     start-in: में शुरू
-    store-owner: से %owner%'s Store
+    store-owner: %owner% के स्टोर से
     delete-item: कार्ट से निकालें
     billing-date: दिन का बिल दिया %day% of each %time%
     billing-date-2: बिल भेजा गया %day%
@@ -157,16 +691,30 @@ shop:
     one-time: एक बार की खरीद
     recurring: आवर्ती सेवाएँ / सदस्यता
     add-account: मेरे खाते में जोड़ें
-    complete-one-time:  एक बार भुगतान पूरा करें
+    complete-one-time: एक बार भुगतान पूरा करें
     total-one-time: "वन टाइम टोटल "
     empty: आपकी गाड़ी खाली है
-        
+    about-seller: %sellername% के बारे में
+
 chat:
     new-conv: नई बातचीत
     send-message: एक संदेश भेजें
     typing: %username% लिख रहा है
-    just-now: अभी       
-         
+    just-now: अभी
+    decline-to-sign: साइन करने के लिए अस्वीकार
+    care-to-elaborate: विस्तृत करने के लिए परवाह? हम दस्तावेज़ स्वामी को एक नोट देंगे।
+    send: भेजें
+    send-a-message: एक संदेश भेजें...
+    how-can-i-help: मैं आपकी कैसे मदद कर सकता हूँ? मैं आपके प्रश्न को पास कर दूंगा
+    ask-a-question: प्रश्न पूछें
+    go-to-previous: पिछले करने के लिए जाओ
+    add-private-note: निजी संदेश जोड़ें
+    press-enter-to-add: जोड़ने के लिए एंटर दबाएं
+    add-Message: संदेश जोड़ें
+    add-public-note: सार्वजनिक संदेश जोड़ें
+    chat-with-me: मुझसे बात करो
+    send-me-msg: मुझे एक संदेश भेजो
+
 swift:
     swift_name_both: नाम
     swift_name: नाम
@@ -176,16 +724,18 @@ swift:
     swift_name_suffix: नाम प्रत्यय
     swift_additional_contact_name: ' का नाम'
     swift_email: ईमेल
-    swift_email_tooltip: 
+    swift_email_tooltip:
     swift_email_tooltip_business: यदि किसी व्यवसाय की ओर से हस्ताक्षर करते हैं तो कृपया अपने प्राथमिक व्यवसाय ईमेल का उपयोग करें। हम आपके हस्ताक्षरित अनुबंध को इस पते पर भेज देंगे।
     swift_email_tooltip: प्राथमिक व्यक्तिगत ईमेल। हम इस पते पर आपके हस्ताक्षर किए गए अनुबंध को भेजेंगे और इस ईमेल से बंधे हुए ऑनलाइन स्विफ्टक्लाउड खाते में ऑनलाइन स्टोर करेंगे।
-    swift_additional_contact_email: ' का ईमेल' 
+    swift_additional_contact_email: ' का ईमेल'
     swift_phone: फ़ोन
     swift_phone_tooltip_format: 'फार्मेट '
     swift_street_1: सड़क
     swift_street_2: सड़क
     swift_city: शहर
     swift_state: राज्य
+    swift_select_state: राज्य चुनें
+    swift_select_country: देश चुनिए
     swift_postalcode: डाक कोड
     swift_additional_contact_phone: ' का फोन'
     swift_address: अपना पता दर्ज करें
@@ -220,3 +770,78 @@ swift:
     swift_credit_card_name: पूरा नाम
     swift_birthdate_picker: तारीख़ चुनें
     swift_datetime: तारीख़ और समय चुनें
+    drag-and-drop-file: फ़ाइलें खींचें और छोड़ें या चयन करने के लिए क्लिक करें
+    only-allow: केवल अनुमति देते हैं
+
+drive:
+    template_library: टेम्प्लेट्स लाइब्रेरी
+
+verimail:
+    success: ईमेल ठीक लग रहा है
+    typo: क्या आपका मतलब है
+    invalidTld_1: शीर्ष स्तर का डोमेन
+    invalidTld_2: अस्तित्व में नहीं है
+    domainBlocked_1: डोमेन
+    domainBlocked_2: अनुमति नहीं है
+    invalidFormat: ईमेल सही ढंग से स्वरूपित नहीं है
+    empty: ईमेल को खाली नहीं होनी चाहिए
+
+session:
+    people_permissions: लोग और अनुमतियाँ
+    add_new_user: नई उपयोगकर्ता को जोड़ना
+    safari_error: सफ़ारी इस पृष्ठ को अच्छी तरह से प्रस्तुत नहीं कर सकती है और केवल सफ़ारी को प्रभावित करने वाले मुद्दों को जानती है। आप आगे बढ़ सकते हैं, लेकिन हम आधिकारिक तौर पर क्रोम या फ़ायरफ़ॉक्स की सलाह देते हैं।
+    reassign_ownership: स्वामित्व सौंपें
+    unstar_contact: पसंदीदा संपर्क हटाना (यहां निकालें, टीम बॉक्स में दिखाई देगा)
+    edit_contact_detail: संपर्क विवरण संपादित करें
+    unlink_from_workroom: वर्करूम से अनलिंक करें
+    share_via_copy_url: लिंक के माध्यम से शेयर करें
+    request_eSignature: हस्ताक्षर का अनुरोध करना
+    history: इतिहास
+    via_email: ईमेल के माध्यम से
+    via_copy_url: लिंक के माध्यम से
+
+publicProfile:
+    save-to-my-contact: मेरे संपर्कों में सहेजें
+    schedule-followup: अनुसूची का पालन करें
+    add-to-phone: फ़ोन में जोड़ें
+    Im-known-for-or-can-help-with: में इस के लिए जाना जाता हु या मदद कर सकता हु
+    Im-looking-for-or-considering: मैं ढूंढ़ रहा हूँ या ध्यान में रखते हुए
+    personal-and-fun: व्यक्तिगत और मनोरंजन
+    introduction: परिचय
+    chat-offline-msg: मैं अभी ऑफ़लाइन हूं, लेकिन इस पर आपको जल्द ही संपर्क करूंगा, आमतौर पर ईमेल के माध्यम से कुछ घंटों के भीतर, और यदि आवश्यक हो तो फोन के माध्यम से संपर्क कर सकते हैं। धन्यवाद!
+    no-items-found: कोई वस्तु उपलब्ध नहीं है
+    no-docs-found: कोई दस्तावेज़ उपलब्ध नहीं है
+    no-job-available: कोई नौकरी उपलब्ध नहीं है
+    open-positions: खुली नौकरियां
+    request-for-proposal: प्रस्ताव निवेदन
+    no-RFP-found: प्रस्ताव निवेदन कि जानकारी उपलब्ध नहीं है
+    forms-list: प्रपत्र सूची
+    no-forms-found: कोई प्रपत्र उपलब्ध नहीं है
+    PDFs-list: पीडीएफ फाइल सूची
+    no-pdfs-found: कोई पीडीएफ फाइल उपलब्ध नहीं है
+    offers-list: प्रस्ताव सूची
+    no-offers-found: कोई प्रस्ताव उपलब्ध नहीं है
+    videos-list: वीडियो सूची
+    no-video-found: कोई वीडियो उपलब्ध नहीं है
+    support:
+        how-can-we-help: हम आपकी सहायता किस तरह से कर सकते है?
+        my-open-tickets-history: मेरे टिकट और इतिहास
+        search-for: निम्न को खोजें
+        open-support-request: समर्थन का अनुरोध करें
+        whats-up: क्या चल रहा है?
+        open-tickets: खुले टिकट
+        closed-tickets: बंद टिकट
+        frequently-asked-questions: अधिकतर पूछे जाने वाले सवाल
+        recent-support-updates: हाल का समर्थन अद्यतन
+        92-of-questions: 92% प्रश्नों के उत्तर ऑनलाइन हैं - बस ऊपर खोजें।
+        interactive-smart-help: इंटरएक्टिव स्मार्ट हेल्प - अपने फोन के तकनीकी उपयोग के लिए उसी समर्थन तक पहुंचें।
+        still-need-help: अभी भी सहायता चाहिए?
+        click-to-open-support-request: समर्थन अनुरोध खोलने के लिए क्लिक करें।
+    optout:
+        manage-your-email-preferences: %username% उपयोगकर्ता से अपनी ईमेल सूचना प्राथमिकताएं प्रबंधित करें
+        changing-preferences-for: प्राथमिकताएँ बदलना
+        email-or-phone: ईमेल या फोन
+        important-items-personal-to-me: मेरे लिए महत्वपूर्ण आइटम - रसीद, मैंने साइन किया हुए डॉक्स, खुले हुए सहायता टिकट, आदि।
+        items-ive-been-personally-added-to: वे आइटम जो मैंने व्यक्तिगत रूप से जोड़े हैं - ई-हस्ताक्षर अनुरोध, मुझे सौंपा गया कार्य, चालान, आदि।
+        critical-notices-from: %username% से महत्वपूर्ण नोटिस
+        news-sales-pecial-offers-marketing-from: %username% से समाचार, बिक्री और विशेष प्रस्ताव, विपणन

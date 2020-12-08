@@ -17,6 +17,7 @@ general:
     phone: Phone
     sign-out: Sign Out
     sign-in: Sign In
+    welcome: Welcome
     search: Search
     about: About
     pay-method: Payment Method    
@@ -27,6 +28,127 @@ general:
     hour: hour
     help: Help
     tax: Tax
+    privacy-cookies: Privacy & Cookies
+    use-of-cookie: This site uses cookies. By continuing to use this website, you agree to their use. To find out more, including how to control cookies, see here
+    cookie-policy: Cookie Policy
+    accept: Accept
+    decline: Decline
+    verify: Verify
+    getStartedNow: Get Started Now
+    processing: Processing...
+    confirm: Confirm
+    please: Please
+    edit: Edit
+    copy: Copy
+    share: Share
+    via_sms: via SMS
+    menu: Menu
+    review: Review
+    write-a-review: Write a review
+    average: Average
+    total-star: %averageStar% out of %totalStar%
+    continued: continued
+    yes: Yes
+    no: No
+    save: Save
+
+menu:
+    saving: Saving
+    success: Success
+    alert: Alert
+    fail: Fail
+    abort-cancel: Abort / Cancel
+    online: Online
+    do-not-disturb: Do Not Disturb
+    show-as-away: Show as Away
+    on-a-call: On a Call
+    with-a-role: With a %userrole%
+    logged-in-as: Logged in as %username%
+    inbox-communication: Inbox & Communication
+    contacts: Contacts
+    all-contacts: All Contacts
+    drive-storage: Drive / Storage
+    calendar: Calendar
+    tasks-projects: Tasks & Projects
+    groups: Groups
+    waivers-petition-signers: Waivers / Petition Signers
+    add-new: Add New
+    import-spreadsheet: Import Spreadsheet
+    web-form-chat-sessions: Web Form & Chat Sessions
+    drive: Drive
+    upload: Upload
+    new-doc: New Doc
+    timeclock: Timeclock
+    upcoming-appointments: Upcoming Appointments
+    add-event: Add Event
+    schedulers: Schedulers
+    marketing: Marketing
+    tracking-URL-creator: URL Creator
+    marketing-experiments: Marketing Experiments
+    support: Support
+    this-page-help: This Page Help
+    support-center: Support Center
+    resource-library: Resource Library
+    settings: Settings
+    change-password: Change Password
+    edit-profile: Edit Profile
+    logOut: LogOut
+    as-signor: As Signor
+    as-receiver: As Receiver
+    signature-forms: Signature Forms
+    all-tasks: All Tasks
+    workrooms: Workrooms
+    priorities: Priorities
+    templates-automation: Templates & Automation
+    open-tickets: Open Tickets
+    customer-feedback: Customer Feedback
+    knowledgebase: Knowledgebase
+    templates-playbooks: Templates & Playbooks
+    all-new: All New
+    clients-vendors: Clients & Vendors
+    accounting: Accounting
+    incoming: Incoming
+    SKUs-items-you-sell: SKUs / Items you sell
+    create-new-invoice: Create New Invoice
+    invoices-receivable: Invoices (Receivable)
+    new-receivable: New Receivable
+    aged-receivables: Aged Receivables
+    billing-agreements: Billing Agreements
+    outgoing: Outgoing
+    purchase-history: Purchase History
+    add-payable: Add Payable
+    invoices-payable: Invoices (Payable)
+    upcoming: Upcoming
+    add-liability: Add Liability
+    aged-payables: Aged Payables
+    add-vendor: Add Vendor
+    everything: Everything
+    import-records: Import Records
+    receipt-capture: Receipt Capture
+    balance-sheet: Balance Sheet
+    tools: Tools
+    projections: Projections
+    cash-flow: Cash Flow
+    profit-loss: Profit & Loss
+    break-even: Break-Even
+    project-budget: Project Budget
+    checkout-now: Checkout Now
+    view-cart: View Cart
+    view-accounts: View Accounts
+    reviews-referrals: Reviews & Referrals
+    review-intake-forms: Review Intake Forms
+    refer-a-friend: Refer a Friend
+    broadcast-email-SMS: Broadcast Email & SMS
+    web-forms: Web Forms
+    create-new-form: Create New Form
+    my-forms: My Forms
+    marketing-sequences: Marketing Sequences
+    disconnect-from-company: Disconnect From Company
+    this-will-disconnect-you-from-company: This will disconnect you from this company. Are you sure you wish to do that? 
+    no-abort-cancel: No, Abort / Cancel
+    yes-Proceed: Yes, Proceed
+    change-to-unshared: Change to Unshared / My SwiftCloud
+
 login:
     modal-body-text: 1-Click Login With...
     or: or
@@ -39,9 +161,13 @@ login:
         reset_password_link: Care to reset your password here?
         invalid_credentials: Invalid credentials
         authentication_problem: Authentication request could not be processed due to a system problem
+        empty_password: Password should not be blank.
+        password_length: Password must be six characters long.
     login_trouble: Login Troubles?
     login_btn: Login
+    logoff_btn: Log Off
     signup_btn: Signup
+    loggedInAs: Logged in as
     terms_of_use: terms of Use
     privacy_policy: privacy policy
     press: Press
@@ -49,10 +175,18 @@ login:
     login_msg: By signing up or logging in, you are agreeing to our fascinating
     tool_tip: This app does not post publicly, unless you specifically use the tool to do so in the marketing section.
     login-products:        
+        quantity: quantity
         today: Today
         thereafter: thereafter
         start-period: starting in %startPreriod%
         today-total: Today's Total
+    login-failed: Login failed.
+    click-to-reset-password: Click here to reset your password
+    login-failed-3-times: Login has failed 3 times, please wait 15 minutes before attempting this account again.
+    message-will-disappear: This message will disappear when you can retry, in
+    account-blocked: This account has been locked due to suspicious traffic after 10 failed login attempts.
+    unlock-account: to unlock this account.
+    contact-support: contact support
 Today: Today  
 Tomorrow: Tomorrow
 D: Day%plural%
@@ -60,11 +194,15 @@ W: Week%plural%
 M: Month%plural%
 Q: Quarter%plural%
 Y: Year%plural%
+Years: Years
 Daily: Daily
 Weekly: Weekly
 Monthly: Monthly
 Quarterly: Quarterly
 Yearly: Yearly        
+Time-AM: am
+Time-PM: pm
+Next-Week: Next Week
 signup:
     modal-body-text: 1-Click Signup With...
     or: or
@@ -75,9 +213,18 @@ signup:
         password_placeholder: Password
         your_name: Your Name
         work_email: Work Email
+        phone: Phone
     create_account_btn: Create Account
     hooked_up: Already Hooked Up?
     tool_tip: This app does not post publicly, unless you specifically use the tool to do so in the marketing section.
+    error:
+        username_required: Please enter username
+        email_required: Please enter email address
+        email_invalid: Please enter valid email address
+        password_required: Please enter password
+        password_minlength: Password length should be atleast 6 characters
+        confirm_password_required: Please enter confirm password
+        password_mismatch: Password and confirm password mismatch
 reset_password:
     recover_account: Recover your account
     reset_password_message: We can help you reset your password and security info. First, enter your Swift account email
@@ -95,12 +242,132 @@ footer:
     accessibility: Accessibility
 signableDoc:
     validations:
-      fieldRequired: This field is required.
-      invalidEmail: Invalid email address.
-      invalidUrl: Invalid URL.
-      invalidPhone: Invalid phone number.
-      selectFile: Please select file.
-      signBelow: Please sign below.
+        fieldRequired: This field is required.
+        invalidEmail: Invalid email address.
+        invalidUrl: Invalid URL.
+        invalidPhone: Invalid phone number.
+        selectFile: Please select file.
+        signBelow: Please sign below.
+        allFieldsAreRequired: All Fields are required
+    Thanks: Thanks
+    you-are-all-set: You're all set.
+    reset-form: Reset Form
+    use-selected: Use Selected
+    your-name-here: Your name here
+    type-here: Type here
+    select-your-week: Select Your Work Week
+    select-week: Select Week
+    next-week: Next Week
+    this-week: This Week
+    last-week: Last Week
+    timesheet-description: Description
+    timesheet-in-time: In
+    timesheet-out-time: Out
+    timesheet-add-time: Add Time
+    timesheet-remove-time: Remove Time
+    timesheet-add-pto: Add PTO Time
+    timesheet-remove-pto: Remove PTO Time
+    name-on-card: Name on Card
+    enter-billing-address: Enter your billing address
+    name-of-bank: Name of bank
+    name-on-account: Name on account
+    routing-number: Routing number
+    account-number: Account number
+    stars: stars
+    star: star
+    absolutely-terrible: Absolutely Terrible
+    excellent: Excellent
+    terrible: Terrible
+    serious-problems: Serious Problems
+    below-expectations: Below Expectations
+    just-so-so: Meh. Just so-so
+    good-not-great: Good not great
+    great: Great
+    hate-it: Hate It
+    love-it: Love It
+    strongly-disagree: Strongly disagree
+    disagree: Disagree
+    neutral: Neutral
+    agree: Agree
+    strongly-agree: Strongly agree
+    click-to-copy: Click to Copy
+    drag-and-drop-file: फ़ाइलें खींचें और छोड़ें या चयन करने के लिए क्लिक करें
+    only-allow: Only allow
+    contact-information: Contact Information
+    contact-form: Contact Form
+    emailVerification:
+        please-click: Please click the link we've emailed to you.
+        almost-done: Almost done - please click the email we sent you to confirm your identity. Emails can take up to 6 minutes to arrive, and if you do not see it, please check your spam or trash.
+        need-to-verify: Need to verify on some other device? Please enter the code we have emailed you.
+    landingForm:
+        name_placeholder: Name
+        email_placeholder: Email
+        phone_placeholder: Phone
+        subject_placeholder: Subject
+        message_placeholder: Message
+        privacy-assured: Privacy Assured.
+        data-secured: Data secured using bank-grade security.
+    complete-my-purchase: Complete my purchase
+    download-this-product: YES! Download This Awesome Product Now!
+    scheduler:
+        purpose: Purpose
+        meeting-type: Meeting Type
+        date-time: Date & Time
+        scheduler-for: Scheduler for %schedulerName%
+        select-service: Select a Service
+        select-language: Please, select timezone
+        select-time: Select a Time
+        select-day: Select a Day
+        end-of-day: to end of day
+        about-you: About You...
+        confirm: Confirm
+        scheduled: Scheduled
+        send-a-reminder: We'll send a reminder.
+        confirm-schedule: Confirm & Schedule
+        confirmed-complete: Confirmed & Complete
+        add-to-calendar: Click To Add To Calendar...
+        appointment: Appointment
+        your-details: Your details
+        no-services-found: No service created yet
+        your-local-time: Your local time
+        release-time-notice:  Are you still there? We had to release this time. When you're ready to complete your booking, please click here to ensure your chosen time is available.
+        refresh-availability: Refresh Availability
+        select-date-time: Select Date & Time
+        may-we-suggest: May we suggest...
+        soonest-available: Soonest Available
+        closest-to-this-time: Closest to this time
+        or-perhaps: or perhaps...
+        previous: Previous
+        please-confirm: Please Confirm...
+        enter-your-card-detail: Enter your card detail
+        exp-month: Exp. Month
+        exp-year: Exp. Year
+        usually-3-digit-code: Usually a 3 Digit Code on the back
+        CVV: 4 for Amex - Card Verification Value
+        checkout: Checkout
+        confirmed-complete: Confirmed & Complete
+        your-booking-is-confirmed: Your booking is confirmed
+        booking-success-msg: The booking details will be sent to the email you provided.
+        click-to-add-to-calendar: Click To Add To Calendar...
+        additional-info: Additional info
+        meeting-details: Meeting Details
+        we-are-holding: We are holding this time for you to prevent double booking.
+        book-an-appointment: Book an Appointment
+        no-schedule-found: No Schedule Found
+        confirm-complete-payment: Confirm & Complete Payment
+        complete-payment-booking: Complete Payment & Booking
+        complete-booking: Complete Booking
+        confirm-appointment: Confirm Appointment
+    start-for-just: Start for just
+    please-enter-valid-itemid: Please enter a valid Itemid
+    user-not-found: User not found.
+    itemid-does-not-exists: Itemid %itemId% does not exists in your store.
+    item-found-but-missing-details: Item found but missing other details. Save the item details first.
+    welcome-back: Welcome back!
+    we-have-draft-session: We have a draft session previously saved for you with this doc, would you like to resume your session?
+    stripe-payment-successfull: Stripe payment has been completed successfully!
+    redirect-to-next-page: Redirect to Next Page
+    
 date-time-system:
     select-day: Day
     select-month: Month
@@ -129,6 +396,226 @@ date-time-system:
       october: October
       november: November
       december: December    
+    day-numbers:
+        0: 0
+        0-5: 0.5
+        1: 1
+        1-5: 1.5
+        2: 2
+        2-5: 2.5
+        3: 3
+        3-5: 3.5
+        4: 4
+        4-5: 4.5
+        5: 5
+        6: 6
+        7: 7
+        8: 8
+        9: 9
+        10: 10
+        11: 11
+        12: 12
+        13: 13
+        14: 14
+        15: 15
+        16: 16
+        17: 17
+        18: 18
+        19: 19
+        20: 20
+        21: 21
+        22: 22
+        23: 23
+        24: 24
+        25: 25
+        26: 26
+        27: 27
+        28: 28
+        29: 29
+        30: 30
+        31: 31
+        32: 32
+        33: 33
+        34: 34
+        35: 35
+        36: 36
+        37: 37
+        38: 38
+        39: 39
+        40: 40
+        41: 41
+        42: 42
+        43: 43
+        44: 44
+        45: 45
+        46: 46
+        47: 47
+        48: 48
+        49: 49
+        50: 50
+        51: 51
+        52: 52
+        53: 53
+        54: 54
+        55: 55
+        56: 56
+        57: 57
+        58: 58
+        59: 59
+        60: 60
+    year-numbers:
+        1900: 1900
+        1901: 1901
+        1902: 1902
+        1903: 1903
+        1904: 1904
+        1905: 1905
+        1906: 1906
+        1907: 1907
+        1908: 1908
+        1909: 1909
+        1910: 1910
+        1911: 1911
+        1912: 1912
+        1913: 1913
+        1914: 1914
+        1915: 1915
+        1916: 1916
+        1917: 1917
+        1918: 1918
+        1919: 1919
+        1920: 1920
+        1921: 1921
+        1922: 1922
+        1923: 1923
+        1924: 1924
+        1925: 1925
+        1926: 1926
+        1927: 1927
+        1928: 1928
+        1929: 1929
+        1930: 1930
+        1931: 1931
+        1932: 1932
+        1933: 1933
+        1934: 1934
+        1935: 1935
+        1936: 1936
+        1937: 1937
+        1938: 1938
+        1939: 1939
+        1940: 1940
+        1941: 1941
+        1942: 1942
+        1943: 1943
+        1944: 1944
+        1945: 1945
+        1946: 1946
+        1947: 1947
+        1948: 1948
+        1949: 1949
+        1950: 1950
+        1951: 1951
+        1952: 1952
+        1953: 1953
+        1954: 1954
+        1955: 1955
+        1956: 1956
+        1957: 1957
+        1958: 1958
+        1959: 1959
+        1960: 1960
+        1961: 1961
+        1962: 1962
+        1963: 1963
+        1964: 1964
+        1965: 1965
+        1966: 1966
+        1967: 1967
+        1968: 1968
+        1969: 1969
+        1970: 1970
+        1971: 1971
+        1972: 1972
+        1973: 1973
+        1974: 1974
+        1975: 1975
+        1976: 1976
+        1977: 1977
+        1978: 1978
+        1979: 1979
+        1980: 1980
+        1981: 1981
+        1982: 1982
+        1983: 1983
+        1984: 1984
+        1985: 1985
+        1986: 1986
+        1987: 1987
+        1988: 1988
+        1989: 1989
+        1990: 1990
+        1991: 1991
+        1992: 1992
+        1993: 1993
+        1994: 1994
+        1995: 1995
+        1996: 1996
+        1997: 1997
+        1998: 1998
+        1999: 1999
+        2000: 2000
+        2001: 2001
+        2002: 2002
+        2003: 2003
+        2004: 2004
+        2005: 2005
+        2006: 2006
+        2007: 2007
+        2008: 2008
+        2009: 2009
+        2010: 2010
+        2011: 2011
+        2012: 2012
+        2013: 2013
+        2014: 2014
+        2015: 2015
+        2016: 2016
+        2017: 2017
+        2018: 2018
+        2019: 2019
+        2020: 2020
+        2021: 2021
+        2022: 2022
+        2023: 2023
+        2024: 2024
+        2025: 2025
+        2026: 2026
+        2027: 2027
+        2028: 2028
+        2029: 2029
+        2030: 2030
+        2031: 2031
+        2032: 2032
+        2033: 2033
+        2034: 2034
+        2035: 2035
+        2036: 2036
+        2037: 2037
+        2038: 2038
+        2039: 2039
+        2040: 2040
+        2041: 2041
+        2042: 2042
+        2043: 2043
+        2044: 2044
+        2045: 2045
+        2046: 2046
+        2047: 2047
+        2048: 2048
+        2049: 2049
+        2050: 2050
+
 envelope:
     preview:
       question:
@@ -150,8 +637,12 @@ invoice:
     receipt: Receipt   
     date: %type%%article% Date
     total: %type% Total
+    complete-payment: Complete Payment
+    note-offline-payment: Note Offline Payment
+    tracking-no: Tracking #
     status:
         due: Due
+        new: New
         partial: Partially Paid
         paid: PAID
         canceled: Canceled
@@ -177,6 +668,7 @@ invoice:
         
 shop:
     shop: Shop
+    add-to-cart: Add to Cart
     cart: Cart
     add-to: Add To
     sales-quest: Sales Questions
@@ -199,15 +691,29 @@ shop:
     one-time: One-Time Purchases
     recurring: Recurring Services/Subscription
     add-account: Add to My Account
-    complete-one-time:  Complete One Time Payment(s)
+    complete-one-time: Complete One Time Payment(s)
     total-one-time: "One Time Total "
     empty: Your cart is empty
+    about-seller: About %sellername%
         
 chat:
     new-conv: New Conversation
     send-message: Send a message
     typing: %username% is writing
     just-now: just now          
+    decline-to-sign: Decline To sign
+    care-to-elaborate: Care to elaborate? We'll pass a note to the document owner.
+    send: Send
+    send-a-message: Send a message...
+    how-can-i-help: How can I help? I'll pass your question to
+    ask-a-question: Ask a question
+    go-to-previous: Go To Previous
+    add-private-note: Add Private Note
+    press-enter-to-add: Press Enter to Add
+    add-Message: Add Message
+    add-public-note: Add Public Note (Anyone with Access)
+    chat-with-me: Chat with me
+    send-me-msg: Send Me a Message
          
 swift:
     swift_name_both: Name
@@ -228,6 +734,8 @@ swift:
     swift_street_2: Street
     swift_city: City
     swift_state: State
+    swift_select_state: Select State
+    swift_select_country: Select Country
     swift_postalcode: Postal code
     swift_additional_contact_phone: 'Phone of'
     swift_address: Address
@@ -262,4 +770,79 @@ swift:
     swift_credit_card_name: Full name
     swift_birthdate_picker: Select date
     swift_datetime: Select date & time
+    drag-and-drop-file: Drag and drop files or click to select
+    only-allow: only
       
+drive:
+    template_library: Templates Library
+
+verimail:
+    success: Email looks OK
+    typo: Did you mean
+    invalidTld_1: Top level domain
+    invalidTld_2: does not exist
+    domainBlocked_1: Domain
+    domainBlocked_2: is not allowed
+    invalidFormat: Email is not correctly formatted
+    empty: Email should not be blank
+
+session:
+    people_permissions: People & Permissions
+    add_new_user: Add New User
+    safari_error: Safari may not render this page well and has known issues affecting Safari only. You can proceed, but we officially recommend Chrome or Firefox.
+    reassign_ownership: Reassign Ownership
+    unstar_contact: Unstar Contact (remove here, will be visible in Team box)
+    edit_contact_detail: Edit Contact Details
+    unlink_from_workroom: Unlink From Workroom
+    share_via_copy_url: Share via Copy URL
+    request_eSignature: Request eSignature
+    history: History
+    via_email: via Email
+    via_copy_url: via Copy URL
+
+publicProfile:
+    save-to-my-contact: Save to My Contacts
+    schedule-followup: Schedule Followup
+    add-to-phone: Add To Phone
+    Im-known-for-or-can-help-with: I'm known for or can help with
+    Im-looking-for-or-considering: I'm looking for or considering...
+    personal-and-fun: Personal and Fun
+    introduction: Introduction
+    chat-offline-msg: I'm offline right now, but will get back to you ASAP on this, usually within a few hours via email, and can follow up via phone if needed. Thanks!
+    no-items-found: No Item Found
+    no-docs-found: No Doc Found
+    no-job-available: No Job available
+    open-positions: Open Positions
+    request-for-proposal: Request For Proposal
+    no-RFP-found: No RFP Found
+    forms-list: Forms List
+    no-forms-found: No form found
+    PDFs-list: PDFs List
+    no-pdfs-found: No PDF found
+    offers-list: Offers List
+    no-offers-found: No Offers Found
+    videos-list: Videos List
+    no-video-found: No Videos Found
+    support:
+        how-can-we-help: How can we help?
+        my-open-tickets-history: My Open Tickets & History
+        search-for: Search for
+        open-support-request: Open Support Request
+        whats-up: What's Up?
+        open-tickets: Open Tickets
+        closed-tickets: Closed Tickets
+        frequently-asked-questions: Frequently Asked Questions
+        recent-support-updates: Recent Support Updates
+        92-of-questions: 92% of Questions have answers online - just search above.
+        interactive-smart-help: Interactive Smart Help - Access the same support our phone techs use.
+        still-need-help: Still need help?
+        click-to-open-support-request: Click to open a support request.
+    optout:
+        manage-your-email-preferences: Manage your e-mail notification preferences from %username%
+        changing-preferences-for: Changing preferences for
+        email-or-phone: Email or Phone
+        important-items-personal-to-me: Important Items personal to me - Receipts, Docs I have e-Signed, Helpdesk tickets I've opened, etc.
+        items-ive-been-personally-added-to: Items I've been personally hand added to - e-Signature Requests, Tasks assigned to me, Invoices, etc.
+        critical-notices-from: Critical notices from %username%
+        news-sales-pecial-offers-marketing-from: News, Sales & Special Offers, Marketing from %username%
+        
