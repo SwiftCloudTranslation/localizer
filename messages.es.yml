@@ -266,8 +266,8 @@ signableDoc:
     timesheet-out-time: Fuera
     timesheet-add-time: Agregar tiempo
     timesheet-remove-time: Eliminar hora
-    timesheet-add-pto: Agregar Tiempo PTO
-    timesheet-remove-pto: Eliminar Tiempo PTO
+    timesheet-add-pto: Agregar PTO
+    timesheet-remove-pto: Eliminar PTO
     name-on-card: Nombre en la Tarjeta
     enter-billing-address: Introduce tu dirección de facturación
     name-of-bank: Nombre del banco
